@@ -3,22 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>IPTV07INDIA</title>
-  <script src="https://cdn.jwplayer.com/libraries/SAHhwvZq.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1" name="viewport">
+  <meta property="og:title" content="IPTV07INDIA">
+  <meta property="og:description" content="User can play M3U8 and other streaming links securely with a stylish player.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url" content="your-site-url">
+  <meta property="og:type" content="website">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+  <meta property="og:image:title" content="IPTV07INDIA">
   <style>
-    html, body {
+    html {
+      font-family: Poppins, sans-serif;
+      background: #000;
       margin: 0;
       padding: 0;
       height: 100%;
-      background: linear-gradient(135deg, #1a1a40, #000066);
-      overflow: hidden;
-      font-family: 'Segoe UI', sans-serif;
     }
 
-    #player {
-      position: relative;
+    /* Loading screen */
+    .loading {
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: 100vh;
-      z-index: 10;
+      height: 100%;
+      background: #000;
+      z-index: 9999;
+    }
+
+    .loading-text {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+      height: 100px;
+      line-height: 100px;
+    }
+
+    .loading-text span {
+      display: inline-block;
+      margin: 0 5px;
+      color: #6a00de;
+      font-family: 'Quattrocento Sans', sans-serif;
     }
 
     /* Watermark */
@@ -49,6 +80,18 @@
       0% { background-position: 0 0; }
       100% { background-position: 1000px 1000px; }
     }
+
+    /* JWPlayer container */
+    .jwplayer {
+      position: absolute !important;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .jwplayer.jw-flag-aspect-mode {
+      min-height: 100%;
+      max-height: 100%;
+    }
   </style>
 </head>
 <body>
@@ -56,12 +99,35 @@
   <div class="animated-bg"></div>
 
   <div class="watermark">IPTV07INDIA</div>
-  <div id="player"></div>
+
+  <!-- JWPlayer container -->
+  <div id="jwplayerDiv"></div>
+
+  <!-- Loading screen -->
+  <div id="loading" class="loading">
+    <div class="loading-text">
+      <span class="loading-text-words">I</span>
+      <span class="loading-text-words">P</span>
+      <span class="loading-text-words">T</span>
+      <span class="loading-text-words">V</span>
+      <span class="loading-text-words">0</span>
+      <span class="loading-text-words">7</span>
+      <span class="loading-text-words">I</span>
+      <span class="loading-text-words">N</span>
+      <span class="loading-text-words">D</span>
+      <span class="loading-text-words">I</span>
+      <span class="loading-text-words">A</span>
+    </div>
+  </div>
+
+  <!-- JWPlayer script -->
+  <script src="https://cdn.jwplayer.com/libraries/SAHhwvZq.js"></script>
 
   <script>
-    jwplayer("player").setup({
+    // Set up JWPlayer with your M3U8 link and logo
+    jwplayer("jwplayerDiv").setup({
       file: "https://star-sports-2-hindi-hd.joker-verse.workers.dev/index.m3u8",
-      image: "https://i.ibb.co/vzD8dFL/logo.png", // Logo image
+      image: "https://i.ibb.co/vzD8dFL/logo.png", // Logo
       autostart: true,
       controls: true,
       width: "100%",
@@ -71,9 +137,14 @@
         link: "#"
       },
       skin: {
-        name: "glow" // Optional skin, you can use others
+        name: "glow" // Optional: you can use other skins if preferred
       }
     });
+
+    // Hide loading screen after 5 seconds
+    setTimeout(function() {
+      document.getElementById('loading').style.display = 'none';
+    }, 5000);
   </script>
 
 </body>
