@@ -2,79 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Universal HLS/MPD Player</title>
+  <title>IPTV07INDIA</title>
+  <script src="https://cdn.jwplayer.com/libraries/SAHhwvZq.js"></script>
   <style>
-    body {
-      background: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: linear-gradient(135deg, #1a1a40, #000066);
+      overflow: hidden;
+      font-family: 'Segoe UI', sans-serif;
     }
-    #logo {
-      max-height: 80px;
-      margin-bottom: 10px;
+
+    #player {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      z-index: 10;
     }
-    #videoPlayer {
-      width: 90%;
-      max-width: 900px;
-      background: #000;
+
+    /* Watermark */
+    .watermark {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #7f80ff;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 1px 1px 5px #00ffff;
+      z-index: 999;
     }
-    input, button {
-      margin: 5px;
-      padding: 8px;
-      width: 90%;
-      max-width: 900px;
+
+    /* Animated background */
+    .animated-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at center, #1b1f3b, #000);
+      animation: moveBackground 20s infinite linear;
+      z-index: 1;
+    }
+
+    @keyframes moveBackground {
+      0% { background-position: 0 0; }
+      100% { background-position: 1000px 1000px; }
     }
   </style>
 </head>
 <body>
 
-  <img id="logo" src="" alt="Channel Logo" style="display:none;">
-  
-  <input type="text" id="streamUrl" placeholder="https://star-sports-2-hindi-hd.joker-verse.workers.dev/index.m3u8">
-  <input type="text" id="logoUrl" placeholder="https://ibb.co/kVzD8dFL">
-  <button onclick="loadStream()">Play Stream</button>
+  <div class="animated-bg"></div>
 
-  <video id="videoPlayer" controls autoplay></video>
+  <div class="watermark">IPTV07INDIA</div>
+  <div id="player"></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
   <script>
-    function loadStream() {
-      const url = document.getElementById('streamUrl').value.trim();
-      const logoUrl = document.getElementById('logoUrl').value.trim();
-      const video = document.getElementById('videoPlayer');
-      const logo = document.getElementById('logo');
-
-      // Set logo
-      if (logoUrl) {
-        logo.src = logoUrl;
-        logo.style.display = 'block';
-      } else {
-        logo.style.display = 'none';
+    jwplayer("player").setup({
+      file: "https://star-sports-2-hindi-hd.joker-verse.workers.dev/index.m3u8",
+      image: "https://i.ibb.co/vzD8dFL/logo.png", // Logo image
+      autostart: true,
+      controls: true,
+      width: "100%",
+      height: "100%",
+      logo: {
+        file: "https://i.ibb.co/vzD8dFL/logo.png",
+        link: "#"
+      },
+      skin: {
+        name: "glow" // Optional skin, you can use others
       }
-
-      // Reset video
-      if (video.canPlayType('application/vnd.apple.mpegurl') && url.endsWith('.m3u8')) {
-        video.src = url;
-        video.play();
-      } else if (Hls.isSupported() && url.endsWith('.m3u8')) {
-        const hls = new Hls();
-        hls.loadSource(url);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED, function () {
-          video.play();
-        });
-      } else if (url.endsWith('.mpd')) {
-        const player = dashjs.MediaPlayer().create();
-        player.initialize(video, url, true);
-      } else {
-        alert("Unsupported stream format. Please use .m3u8 or .mpd URL.");
-      }
-    }
+    });
   </script>
 
 </body>
