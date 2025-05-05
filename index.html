@@ -21,7 +21,7 @@
       height: 100%;
     }
 
-    /* Loading screen */
+    /* Loading screen with gates opening */
     .loading {
       position: fixed;
       top: 0;
@@ -30,26 +30,64 @@
       height: 100%;
       background: #000;
       z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
+    .gates {
+      display: flex;
+      width: 80%;
+      height: 50px;
+      position: relative;
+    }
+
+    .gate {
+      width: 50%;
+      height: 100%;
+      background: #6a00de;
+      animation: openGates 3s ease-in-out infinite alternate;
+    }
+
+    .gate-left {
+      position: absolute;
+      left: 0;
+    }
+
+    .gate-right {
+      position: absolute;
+      right: 0;
+    }
+
+    @keyframes openGates {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    /* Text animation */
     .loading-text {
       position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      text-align: center;
-      width: 100%;
-      height: 100px;
-      line-height: 100px;
+      top: 60%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      color: #fff;
+      font-weight: bold;
+      animation: fadeInOut 4s ease-in-out infinite;
     }
 
-    .loading-text span {
-      display: inline-block;
-      margin: 0 5px;
-      color: #6a00de;
-      font-family: 'Quattrocento Sans', sans-serif;
+    @keyframes fadeInOut {
+      0%, 100% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
     }
 
     /* Watermark */
@@ -100,25 +138,17 @@
 
   <div class="watermark">IPTV07INDIA</div>
 
+  <!-- Loading animation -->
+  <div id="loading" class="loading">
+    <div class="gates">
+      <div class="gate gate-left"></div>
+      <div class="gate gate-right"></div>
+    </div>
+    <div class="loading-text">JOIN @IPTV07INDIA ON TELEGRAM</div>
+  </div>
+
   <!-- JWPlayer container -->
   <div id="jwplayerDiv"></div>
-
-  <!-- Loading screen -->
-  <div id="loading" class="loading">
-    <div class="loading-text">
-      <span class="loading-text-words">I</span>
-      <span class="loading-text-words">P</span>
-      <span class="loading-text-words">T</span>
-      <span class="loading-text-words">V</span>
-      <span class="loading-text-words">0</span>
-      <span class="loading-text-words">7</span>
-      <span class="loading-text-words">I</span>
-      <span class="loading-text-words">N</span>
-      <span class="loading-text-words">D</span>
-      <span class="loading-text-words">I</span>
-      <span class="loading-text-words">A</span>
-    </div>
-  </div>
 
   <!-- JWPlayer script -->
   <script src="https://cdn.jwplayer.com/libraries/SAHhwvZq.js"></script>
@@ -126,7 +156,7 @@
   <script>
     // Set up JWPlayer with your M3U8 link and logo
     jwplayer("jwplayerDiv").setup({
-      file: "https://wasiteam.online/sports/master.m3u8/?key=WASITV&wmsAuthSign=4e7a51364e5445364e6a45674e4449744d7a41744e5449774d67&c=starhindi",
+      file: "https://star-sports-2-hindi-hd.joker-verse.workers.dev/index.m3u8",
       image: "https://i.ibb.co/vzD8dFL/logo.png", // Logo
       autostart: true,
       controls: true,
