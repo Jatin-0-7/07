@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Live TV</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕊IPTV07INDIA™</title>
+  <link rel="shortcut icon" href="https://i.postimg.cc/FK8hbh33/Chat-GPT-Image-May-11-2025-01-46-01-PM.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Shaka Player for .mpd with clearkey -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <h1>Live TV Channels</h1>
-  <div class="grid" id="channel-grid"></div>
+  <header>
+    <img src="https://i.postimg.cc/FK8hbh33/Chat-GPT-Image-May-11-2025-01-46-01-PM.png" alt="Logo">
+    <h1>LOKIIPTV</h1>
+    <div class="search-filter">
+      <input type="text" id="search-bar" placeholder="Search...">
+      <select id="language-filter">
+        <option value="">All Languages</option>
+      </select>
+      <select id="category-filter">
+        <option value="">All Categories</option>
+      </select>
+    </div>
+  </header>
 
-  <script src="script.js"></script>
+  <main>
+    <div id="grid-container"></div>
+    <video id="videoPlayer" width="100%" height="auto" controls autoplay style="margin-top: 20px;"></video>
+  </main>
 </body>
 </html>
