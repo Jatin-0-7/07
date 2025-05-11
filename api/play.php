@@ -21,7 +21,6 @@ $videoTitle = $selectedChannel['channel_name'];
 ?>
 
 <html>
-
 <head>
     <title>Tvtelugu</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -33,31 +32,28 @@ $videoTitle = $selectedChannel['channel_name'];
     <script src="https://cdn.jsdelivr.net/npm/hls.js@1.1.4/dist/hls.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dashjs@3.1.0/dist/dash.all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-
     <style>
         /* Your existing styles */
     </style>
-
 </head>
-
 <body>
 
 <div id="loading" class="loading">
     <div class="loading-text">
         <b>
-            <span class="loading-text-words">I</span>
-            <span class="loading-text-words">P</span>
             <span class="loading-text-words">T</span>
             <span class="loading-text-words">V</span>
-            <span class="loading-text-words">0</span>
-            <span class="loading-text-words">7</span>
-            <span class="loading-text-words">I</span>
-            <span class="loading-text-words">N</span>
+            <span class="loading-text-words">T</span>
+            <span class="loading-text-words">E</span>
+            <span class="loading-text-words">L</span>
+            <span class="loading-text-words">U</span>
+            <span class="loading-text-words">G</span>
+            <span class="loading-text-words">U</span>
         </b>
     </div>
 </div>
 
-<video id="player" autoplay controls crossorigin poster="" playsinline>
+<video id="player" autoplay controls crossorigin poster="https://raw.githubusercontent.com/tvtelugu/play/main/images/TVtelugu.ico" playsinline>
     <!-- Video source will be dynamically injected by JavaScript -->
 </video>
 
@@ -75,17 +71,21 @@ $videoTitle = $selectedChannel['channel_name'];
 
         // If it's an MPD (DASH) file
         if (isMpd) {
+            // Using dash.js to handle MPD streaming
             const player = dashjs.MediaPlayer().create();
             player.initialize(videoElement, videoUrl, true); // Initialize DASH player
+
+            player.on('error', function(event) {
+                console.error("Error loading DASH stream: ", event);
+                alert("Error loading DASH stream.");
+            });
         }
         // If it's an HLS stream (M3U8)
         else if (Hls.isSupported()) {
-            var config = {
-                maxMaxBufferLength: 100,
-            };
-            const hls = new Hls(config);
+            const hls = new Hls();
             hls.loadSource(videoUrl);
-            hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {
                 const qualityOptions = hls.levels.map(level => level.height);
                 const plyrOptions = {
                     quality: {
@@ -103,14 +103,22 @@ $videoTitle = $selectedChannel['channel_name'];
                 };
                 new Plyr(videoElement, plyrOptions);
             });
+
+            hls.on(Hls.Events.ERROR, function(event, data) {
+                if (data.fatal) {
+                    console.error("HLS.js error: ", data);
+                    alert("Error loading HLS stream.");
+                }
+            });
+
             hls.attachMedia(videoElement);
             window.hls = hls;
         } else {
-            new Plyr(videoElement, {});
+            console.error("Neither HLS.js nor Dash.js is supported");
+            alert("Error: Stream type not supported in this browser.");
         }
     });
 </script>
 
 </body>
-
 </html>
