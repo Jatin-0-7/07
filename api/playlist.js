@@ -18,28 +18,28 @@ export default async function handler(req, res) {
         const language = channel["tvg-language"] || "Unknown";
 
         const licenseType = channel.license?.type || "";
-        const licenseKeyRaw = channel.license?.key || "";
+        const keyid = channel.license?.keyid || "";
+        const key = channel.license?.key || "";
 
-        const userAgent = channel.headers?.["user-agent"] || "tv.accedo.airtel.wynk/1.97.1 (Linux;Android 13) ExoPlayerLib/2.19.1";
+        const userAgent = channel.headers?.["user-agent"] || "Mozilla/5.0";
         const origin = "";
         const referer = "";
 
-        // Build license URL if present
-        let licenseUrl = "";
-        if (licenseKeyRaw.includes(":")) {
-            const [keyid, key] = licenseKeyRaw.split(":");
-            licenseUrl = `https://clkey.vercel.app/api/results.php?keyid=${keyid}&key=${key}`;
-        }
-
-        // M3U Info Line
+        // M3U Header
         m3u += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-language="${language}" tvg-logo="${logo}" group-title="${group}" group-logo="${groupLogo}", ${name}\n`;
 
-        if (licenseUrl) {
-            m3u += `#KODIPROP:inputstream.adaptive.license_type=${licenseType}\n`;
-            m3u += `#KODIPROP:inputstream.adaptive.license_key=${licenseUrl}\n`;
+        // Add clearkey license info if available
+        if (licenseType.toLowerCase() === "clearkey" && keyid && key) {
+            m3u += `#KODIPROP:inputstream.adaptive.license_type=clearkey\n`;
+            m3u += `#KODIPROP:inputstream.adaptive.license_key=${keyid}:${key}\n`;
+
+            // Add optional license URL for dynamic usage
+            const licenseUrl = `https://clkey.vercel.app/api/results.php?keyid=${keyid}&key=${key}`;
+            // Uncomment if you want to include it as a comment
+            // m3u += `# License URL: ${licenseUrl}\n`;
         }
 
-        // Use proxy with headers passed in query
+        // Final proxy URL with headers
         const proxyUrl = `https://${host}/api/js.mpd?id=${id}|User-Agent="${userAgent}"&Origin="${origin}"&Referer="${referer}"`;
         m3u += `${proxyUrl}\n\n`;
     });
