@@ -38,24 +38,24 @@ def parse_m3u_to_json(m3u_content):
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
             license_key = line.split("=", 1)[1]
             if "license" not in item:
-                item["license"] = {}
+                item["license"] = {"type": "clearkey"}  # default type
             if ":" in license_key:
                 keyid, key = license_key.split(":", 1)
-                item["license"]["keyid"] = keyid
-                item["license"]["key"] = key
+                item["license"]["keyid"] = keyid.strip()
+                item["license"]["key"] = key.strip()
             else:
-                item["license"]["key"] = license_key  # fallback if malformed
+                item["license"]["key"] = license_key.strip()  # fallback
 
         elif line.startswith("#EXTVLCOPT:http-user-agent="):
             if "headers" not in item:
                 item["headers"] = {}
-            item["headers"]["user-agent"] = line.split("=", 1)[1]
+            item["headers"]["user-agent"] = line.split("=", 1)[1].strip()
 
         elif line.startswith("#EXTHTTP:"):
-            continue  # skip cookie/cdn headers
+            continue  # Skip for now
 
         elif line.startswith("http"):
-            item["url"] = line
+            item["url"] = line.strip()
             result.append(item)
             item = {}
 
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2)
 
-    print("✅ Converted to channels.json")
+    print("✅ Converted to channels.json with key/keyid support")
