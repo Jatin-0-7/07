@@ -12,12 +12,16 @@ def parse_m3u_to_json(m3u_content):
     result = []
     item = {}
 
-    for line in lines:
+    for i, line in enumerate(lines):
         line = line.strip()
 
         if line.startswith("#EXTINF:"):
-            extinf_pattern = re.compile(
-                r'#EXTINF:-1 tvg-logo="(.*?)" group-title="(.*?)",(.*)')
+            # Save the previous item before starting a new one
+            if "url" in item:
+                result.append(item)
+                item = {}
+
+            extinf_pattern = re.compile(r'#EXTINF:-1 tvg-logo="(.*?)" group-title="(.*?)",(.*)')
             match = extinf_pattern.match(line)
             if match:
                 tvg_logo = match.group(1)
@@ -33,31 +37,27 @@ def parse_m3u_to_json(m3u_content):
                 }
 
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_type="):
-            item["license"] = {"type": line.split("=", 1)[1]}
+            item.setdefault("license", {})["type"] = line.split("=", 1)[1]
 
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
             license_key = line.split("=", 1)[1]
-            if "license" not in item:
-                item["license"] = {"type": "clearkey"}  # default type
+            item.setdefault("license", {})
             if ":" in license_key:
                 keyid, key = license_key.split(":", 1)
-                item["license"]["keyid"] = keyid.strip()
-                item["license"]["key"] = key.strip()
+                item["license"]["keyid"] = keyid
+                item["license"]["key"] = key
             else:
-                item["license"]["key"] = license_key.strip()  # fallback
+                item["license"]["key"] = license_key
 
         elif line.startswith("#EXTVLCOPT:http-user-agent="):
-            if "headers" not in item:
-                item["headers"] = {}
-            item["headers"]["user-agent"] = line.split("=", 1)[1].strip()
-
-        elif line.startswith("#EXTHTTP:"):
-            continue  # Skip for now
+            item.setdefault("headers", {})["user-agent"] = line.split("=", 1)[1]
 
         elif line.startswith("http"):
-            item["url"] = line.strip()
-            result.append(item)
-            item = {}
+            item["url"] = line
+
+    # Don't forget to save the last item
+    if "url" in item:
+        result.append(item)
 
     return result
 
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2)
 
-    print("✅ Converted to channels.json with key/keyid support")
+    print("✅ Converted to channels.json with keyid & key")
