@@ -36,9 +36,15 @@ def parse_m3u_to_json(m3u_content):
             item["license"] = {"type": line.split("=", 1)[1]}
 
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
+            license_key = line.split("=", 1)[1]
             if "license" not in item:
                 item["license"] = {}
-            item["license"]["key"] = line.split("=", 1)[1]
+            if ":" in license_key:
+                keyid, key = license_key.split(":", 1)
+                item["license"]["keyid"] = keyid
+                item["license"]["key"] = key
+            else:
+                item["license"]["key"] = license_key  # fallback if malformed
 
         elif line.startswith("#EXTVLCOPT:http-user-agent="):
             if "headers" not in item:
@@ -46,7 +52,7 @@ def parse_m3u_to_json(m3u_content):
             item["headers"]["user-agent"] = line.split("=", 1)[1]
 
         elif line.startswith("#EXTHTTP:"):
-            continue  # Skip cookie line
+            continue  # skip cookie/cdn headers
 
         elif line.startswith("http"):
             item["url"] = line
