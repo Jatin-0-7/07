@@ -1,0 +1,35 @@
+name: M3U to JSON Auto Convert
+
+on:
+  schedule:
+    - cron: '5 */11 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-and-convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Fetch M3U File
+        run: |
+          curl -L -o data.txt https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/artl.m3u
+
+      - name: Convert M3U to JSON
+        run: |
+          python3 convert.py
+
+      - name: Commit and Push channels.json
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add channels.json
+          git commit -m "Auto-update channels.json from M3U [$(date)]" || echo "No changes to commit"
+          git push
