@@ -21,20 +21,18 @@ def parse_m3u_to_json(m3u_content):
                 result.append(item)
                 item = {}
 
-            # Match extended info with all required fields
-            extinf_pattern = re.compile(
-                r'#EXTINF:-1 tvg-id="(.*?)" tvg-name="(.*?)" tvg-logo="(.*?)" group-title="(.*?)" group-logo="(.*?)",(.*)'
-            )
-            match = extinf_pattern.match(line)
-            if match:
-                item = {
-                    "tvg-id": match.group(1),
-                    "tvg-name": match.group(2),
-                    "tvg-logo": match.group(3),
-                    "group-title": match.group(4),
-                    "group-logo": match.group(5),
-                    "name": format_name_variants(match.group(6).strip())["name"]
-                }
+            # Extract all key="value" fields
+            attrs = dict(re.findall(r'(\w+?)="(.*?)"', line))
+            title = line.split(",")[-1].strip()
+
+            item = {
+                "tvg-id": attrs.get("tvg-id", ""),
+                "tvg-name": attrs.get("tvg-name", title),
+                "tvg-logo": attrs.get("tvg-logo", ""),
+                "group-title": attrs.get("group-title", ""),
+                "group-logo": attrs.get("group-logo", ""),
+                "name": format_name_variants(title)["name"]
+            }
 
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_type="):
             item.setdefault("license", {})["type"] = line.split("=", 1)[1]
@@ -54,14 +52,12 @@ def parse_m3u_to_json(m3u_content):
         elif line.startswith("#EXTHTTP:"):
             try:
                 headers = json.loads(line[len("#EXTHTTP:"):])
-                # Remove cookie if exists
-                headers.pop("cookie", None)
+                headers.pop("cookie", None)  # Remove cookie
                 item["headers"] = headers
             except json.JSONDecodeError:
-                pass  # Ignore malformed JSON
+                pass
 
         elif line.startswith("http"):
-            # Keep full URL including cookies and headers
             item["url"] = line
 
     if "url" in item:
@@ -78,4 +74,4 @@ if __name__ == "__main__":
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2)
 
-    print("✅ Converted to channels.json with full URL and no cookie in headers")
+    print("✅ Converted to channels.json")
