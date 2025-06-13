@@ -1,35 +1,38 @@
-name: M3U to JSON Auto Convert
+name: Update cookie Token Every Hour
 
 on:
   schedule:
-    - cron: '5 */11 * * *'
+    - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
 jobs:
-  fetch-and-convert:
+  update-cdn-token:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+
+      - name: Fetch cookie from channels.json
+        run: |
+          COOKIE=$(curl -s "https://jiohotstar.joker-verse.workers.dev/live/channels.json" \
+            | jq -r '.[0].cookie')
+
+          echo "$COOKIE" > get.txt
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Fetch M3U File
-        run: |
-          curl -L -o data.txt http://sflex07.fun/jiohotstar-by07/07.php
+      - name: Run Python script to update channels.json
+        run: python update_channels.py
 
-      - name: Convert M3U to JSON
+      - name: Commit and push updated files
         run: |
-          python3 convert.py
-
-      - name: Commit and Push channels.json
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add channels.json
-          git commit -m "Auto-update channels.json from M3U [$(date)]" || echo "No changes to commit"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add get.txt channels.json
+          git commit -m "Update token and channels.json - $(date -u)" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
