@@ -1,401 +1,254 @@
 [
   {
-    "tvg-id": "1260000002",
-    "tvg-name": "Star Suvarna",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Suvarna",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "57acc8a5b3e44b22bed66f4d98b80000",
-      "key": "2d8806d3ecf4564eed9a558ca2fccfc3"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005602/99461ef46a5a4b22ae49b7899b60e978/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000004",
-    "tvg-name": "Asianet Plus",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Asianet-Plus",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "2f1eeca31d274261bb42d8ece35c0000",
-      "key": "2a9d04d994b6f98f557f5591a3beb379"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005578/0aa297ae583848f38b4a182e052d72ae/index.mpd|cookie=\"hdntl=exp=1749888014~acl=*gec-india-1540005578*~id=4ac64c30d1578245f0fea957e53eae5c~data=hdntl~hmac=2b95416a31aa3e08a0e7e999aa5c96747d4896e71e21e0881e2a8354da4a86cf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000006",
-    "tvg-name": "Star Pravah",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Pravah",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "905bfd41e9f3475a9dbb4978e7cc0000",
-      "key": "8b63bf73680529786915066af770f095"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005596/ad727a90692141c39c906e7d41a58fcb/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000008",
-    "tvg-name": "Star Maa Movies",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h",
-    "group-title": "JioHotstar | Movies",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Maa-Movies",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "51f97df0762849128458b49026ca0000",
-      "key": "296dd0305e3d0cc0f63c79befb1a76b0"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005569/b4c6a9c5ab874e97ade58bcec1e89ed9/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000012",
-    "tvg-name": "Asianet",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Asianet",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "413c14c05e694578bd1f71b4d8490000",
-      "key": "588858a1e3e4f8c7fe42182c4f3449ff"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-intl-1540005672/280ecda3146b424b84a970c5c6bbf4de/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000014",
-    "tvg-name": "Star Jalsha",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Jalsha",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "6ca420fd52fb4499b3908b9a5bee0000",
-      "key": "60906249afe83c630a0067fbfa9b6aff"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005599/f68f754c61904c83a6e52180089dcc21/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000016",
-    "tvg-name": "Star Maa",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Maa",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "29c5f9b74d834e778347d60185760000",
-      "key": "f2f7694d3f01b85585f12e4bdc7e017b"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-intl-1540005675/93253993b1954ca39634c60773512ce6/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000017",
+    "tvg-id": "starplus",
     "tvg-name": "StarPlus",
     "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "StarPlus",
+    "group-title": "JioHotstar\u2b50Entertainment",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "4538242a7c1a4cb89bcf180cc17e0000",
-      "key": "4f18240ef66329a3db73a733e6a7aaf2"
+      "key": "4538242a7c1a4cb89bcf180cc17e0000:4f18240ef66329a3db73a733e6a7aaf2"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005587/d70f7444749a46988107a08c1bea5c54/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005587/d70f7444749a46988107a08c1bea5c54/index.mpd"
   },
   {
-    "tvg-id": "1260000018",
-    "tvg-name": "Star Vijay",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Vijay",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "c8fb97f8e54840bcbf644ce0a1280000",
-      "key": "0179c9912575454486c5b0874c604e05"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540023693/5134757d50a64dd292a3905ca9210b26/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000019",
-    "tvg-name": "Maa Gold",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Maa-Gold",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "f6c081c04f154ac3b5af4c262d940000",
-      "key": "27ba6f2ed7c89bc4091b8309298635c9"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005566/68f8844cce2640fa91a4dc6d4b82ca3c/index.mpd|cookie=\"hdntl=exp=1749888013~acl=*gec-india-1540005566*~id=2e66041b9ffeba22d04623391b117098~data=hdntl~hmac=64b518cb06dc3b241be9471c1cdcc4ac8d54cf581a1eb028bf405b244124e06f\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000020",
-    "tvg-name": "Star Utsav",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Utsav",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "10935324ce6b4e28a11f94554d970000",
-      "key": "df019cdc881bd48c79d33bfc63ba22c6"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005605/7ec53f14f0594e309eb692104742e4a8/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000024",
-    "tvg-name": "Star Sports Select HD2",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h",
-    "group-title": "JioHotstar | Sports",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Sports-Select-HD2",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "fe7718fbb3fb4ba78c07cc0f578744e6",
-      "key": "624e24b1843b459fab0a949609416f0d"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv-push.hotstar.com/dash/live/2002471-b/ssselecthd2wv/master.mpd|cookie=\"hdntl=exp=1749132610~acl=*ssselecthd2*~id=dfeda317c8f6fc6b83696f5df35ddada~data=hdntl~hmac=dae4428e02c88d23f01011ac53619dedfae6a732c678feaf13312346b6b749ea\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000025",
-    "tvg-name": "Star Sports Hindi 1",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h",
-    "group-title": "JioHotstar | Sports",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Sports-Hindi-1",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "fe7718fbb3fb4ba78c07cc0f578744e6",
-      "key": "624e24b1843b459fab0a949609416f0d"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv-push.hotstar.com/dash/live/2002466-b/sshindiwv/master.mpd|cookie=\"hdntl=exp=1749275408~acl=*sshindi*~id=9e271db613706772c0419e2f11a549cc~data=hdntl~hmac=895c6837eb7c0ead6b1f44544a0229907c176be00d0b63a3d923dbee247c545f\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000031",
+    "tvg-id": "star_bharat",
     "tvg-name": "Star Bharat",
     "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Bharat",
+    "group-title": "JioHotstar\u2b50Entertainment",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "3dcee103bfa6461a85cb7991aa920000",
-      "key": "58681f979afd5e5514a6552fad0f6c8a"
+      "key": "3dcee103bfa6461a85cb7991aa920000:58681f979afd5e5514a6552fad0f6c8a"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005590/ed7dde701895465191f34b11a64f7a0c/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005590/ed7dde701895465191f34b11a64f7a0c/index.mpd"
   },
   {
-    "tvg-id": "1260000033",
-    "tvg-name": "Star Sports 2",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h",
-    "group-title": "JioHotstar | Sports",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Sports-2",
+    "tvg-id": "star_utsav",
+    "tvg-name": "Star Utsav",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "fe7718fbb3fb4ba78c07cc0f578744e6",
-      "key": "624e24b1843b459fab0a949609416f0d"
+      "key": "10935324ce6b4e28a11f94554d970000:df019cdc881bd48c79d33bfc63ba22c6"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv-push.hotstar.com/dash/live/2002465-b/sshd2livetvwv/master.mpd|cookie=\"hdntl=exp=1749888014~acl=*sshd2livetv*~id=2dbf7e55bb7f2c2229ab954ada44c4b6~data=hdntl~hmac=7a1380e6196e3a83706fa6be6c5220229d134ed9fcc696be06aad3ae9f6fa977\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005605/7ec53f14f0594e309eb692104742e4a8/index.mpd"
   },
   {
-    "tvg-id": "1260000034",
-    "tvg-name": "Star Sports Select HD1",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h",
-    "group-title": "JioHotstar | Sports",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Sports-Select-HD1",
+    "tvg-id": "star_pravah",
+    "tvg-name": "Star Pravah",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "fe7718fbb3fb4ba78c07cc0f578744e6",
-      "key": "624e24b1843b459fab0a949609416f0d"
+      "key": "905bfd41e9f3475a9dbb4978e7cc0000:8b63bf73680529786915066af770f095"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv-push.hotstar.com/dash/live/2002470-b/ssselecthd1wv/master.mpd|cookie=\"hdntl=exp=1747775410~acl=*ssselecthd1*~id=6730546364eb91d732e67ddc1cba368d~data=hdntl~hmac=a54f0f6b1376cffdd532efab6aa3ce87f9cdddcc29ad58966247aedee3c1029b\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005596/ad727a90692141c39c906e7d41a58fcb/index.mpd"
   },
   {
-    "tvg-id": "1260000035",
-    "tvg-name": "Star Sports 1",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h",
-    "group-title": "JioHotstar | Sports",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Sports-1",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "fe7718fbb3fb4ba78c07cc0f578744e6",
-      "key": "624e24b1843b459fab0a949609416f0d"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv-push.hotstar.com/dash/live/2002464-b/sshd1livetvwv/master.mpd|cookie=\"hdntl=exp=1749888014~acl=*sshd1livetv*~id=14850d1c8e3776f5c9b73ec4febe2eab~data=hdntl~hmac=f3b1a18c3aa3173369eae3901e68276036557682983f4f601a030f4cba643a6a\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000039",
-    "tvg-name": "Jalsha Movies",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h",
-    "group-title": "JioHotstar | Movies",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Jalsha-Movies",
-    "license": {
-      "type": "org.w3.clearkey",
-      "keyid": "95ac951c39444bb791fdeef92cb30000",
-      "key": "90930af3871b506ac7505717f52b8d61"
-    },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005554/62cac00d87ed45c6873e7869629143d8/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
-  },
-  {
-    "tvg-id": "1260000040",
+    "tvg-id": "star_gold",
     "tvg-name": "Star Gold",
     "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h",
-    "group-title": "JioHotstar | Movies",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Gold",
+    "group-title": "JioHotstar\u2b50Movies",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "e1e2d64eaf514da88dbf341518910000",
-      "key": "031bbcc4995ba31ea38fa18d66f9adf1"
+      "key": "e1e2d64eaf514da88dbf341518910000:031bbcc4995ba31ea38fa18d66f9adf1"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd|cookie=\"hdntl=exp=1749888013~acl=*gec-india-1540005563*~id=b85bc2264e441aeab2c0e7fce0e56a00~data=hdntl~hmac=c4ad0fac3afa077ff35db6544a7452c9ce14acaf91fd0ac43b0cb947a2fbef00\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd"
   },
   {
-    "tvg-id": "1260000042",
-    "tvg-name": "Asianet Movies",
-    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h",
-    "group-title": "JioHotstar | Movies",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Asianet-Movies",
+    "tvg-id": "star_sports_hindi_1",
+    "tvg-name": "Star Sports Hindi 1",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h",
+    "group-title": "JioHotstar\u2b50Sports",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "1a1dbcda71b34988bb9dc7c475a10000",
-      "key": "7e5b2b26e43a75a2e0052b7e239ad420"
+      "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
-    },
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005572/5d926a8fef3048f3a42d55b936fea7d4/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv-push.hotstar.com/dash/live/2002466-b/sshindiwv/master.mpd"
   },
   {
-    "tvg-id": "1260000043",
+    "tvg-id": "star_sports_1",
+    "tvg-name": "Star Sports 1",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h",
+    "group-title": "JioHotstar\u2b50Sports",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv-push.hotstar.com/dash/live/2002464-b/sshd1livetvwv/master.mpd"
+  },
+  {
+    "tvg-id": "jalsha_movies",
+    "tvg-name": "Jalsha Movies",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h",
+    "group-title": "JioHotstar\u2b50Movies",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "95ac951c39444bb791fdeef92cb30000:90930af3871b506ac7505717f52b8d61"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005554/62cac00d87ed45c6873e7869629143d8/index.mpd"
+  },
+  {
+    "tvg-id": "star_jalsha",
+    "tvg-name": "Star Jalsha",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "6ca420fd52fb4499b3908b9a5bee0000:60906249afe83c630a0067fbfa9b6aff"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005599/f68f754c61904c83a6e52180089dcc21/index.mpd"
+  },
+  {
+    "tvg-id": "star_maa",
+    "tvg-name": "Star Maa",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "29c5f9b74d834e778347d60185760000:f2f7694d3f01b85585f12e4bdc7e017b"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-intl-1540005675/93253993b1954ca39634c60773512ce6/index.mpd"
+  },
+  {
+    "tvg-id": "star_maa_movies",
+    "tvg-name": "Star Maa Movies",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h",
+    "group-title": "JioHotstar\u2b50Movies",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "51f97df0762849128458b49026ca0000:296dd0305e3d0cc0f63c79befb1a76b0"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005569/b4c6a9c5ab874e97ade58bcec1e89ed9/index.mpd"
+  },
+  {
+    "tvg-id": "maa_gold",
+    "tvg-name": "Maa Gold",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "f6c081c04f154ac3b5af4c262d940000:27ba6f2ed7c89bc4091b8309298635c9"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005566/68f8844cce2640fa91a4dc6d4b82ca3c/index.mpd"
+  },
+  {
+    "tvg-id": "star_vijay",
+    "tvg-name": "Star Vijay",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "c8fb97f8e54840bcbf644ce0a1280000:0179c9912575454486c5b0874c604e05"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540023693/5134757d50a64dd292a3905ca9210b26/index.mpd"
+  },
+  {
+    "tvg-id": "star_suvarna_plus",
     "tvg-name": "Star Suvarna Plus",
     "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h",
-    "group-title": "JioHotstar | Entertainment",
-    "group-logo": "https://img.hotstar.com/image/upload/v1737554969/web-assets/prod/images/rebrand/logo.png",
-    "name": "Star-Suvarna-Plus",
+    "group-title": "JioHotstar\u2b50Entertainment",
     "license": {
       "type": "org.w3.clearkey",
-      "keyid": "f80a11c923674193966c36320bf50000",
-      "key": "9c035e0b8438cb4ac8a9e4bb989e4056"
+      "key": "f80a11c923674193966c36320bf50000:9c035e0b8438cb4ac8a9e4bb989e4056"
     },
-    "headers": {
-      "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-      "Origin": "https://www.hotstar.com",
-      "Referer": "https://www.hotstar.com/"
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005611/8b2689ff3cc84723a124218e84f2606e/index.mpd"
+  },
+  {
+    "tvg-id": "star_suvarna",
+    "tvg-name": "Star Suvarna",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "57acc8a5b3e44b22bed66f4d98b80000:2d8806d3ecf4564eed9a558ca2fccfc3"
     },
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005611/8b2689ff3cc84723a124218e84f2606e/index.mpd|cookie=\"hdntl=exp=1749888013~acl=*gec-india-1540005611*~id=29043b81cc00a46de769b4605e1c6a51~data=hdntl~hmac=f4e9362c5dcae1d62999f4e85e9891dd2f88dfeb9ad463edcbb4c20d4df1ebc5\"&User-Agent=\"Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)\"&Origin=\"https://www.hotstar.com\"&Referer=\"https://www.hotstar.com/\""
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005602/99461ef46a5a4b22ae49b7899b60e978/index.mpd"
+  },
+  {
+    "tvg-id": "asianet_movies",
+    "tvg-name": "Asianet Movies",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h",
+    "group-title": "JioHotstar\u2b50Movies",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "1a1dbcda71b34988bb9dc7c475a10000:7e5b2b26e43a75a2e0052b7e239ad420"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005572/5d926a8fef3048f3a42d55b936fea7d4/index.mpd"
+  },
+  {
+    "tvg-id": "asianet",
+    "tvg-name": "Asianet",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "413c14c05e694578bd1f71b4d8490000:588858a1e3e4f8c7fe42182c4f3449ff"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp1/gec-intl-1540005672/280ecda3146b424b84a970c5c6bbf4de/index.mpd"
+  },
+  {
+    "tvg-id": "asianet_plus",
+    "tvg-name": "Asianet Plus",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h",
+    "group-title": "JioHotstar\u2b50Entertainment",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "2f1eeca31d274261bb42d8ece35c0000:2a9d04d994b6f98f557f5591a3beb379"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005578/0aa297ae583848f38b4a182e052d72ae/index.mpd"
+  },
+  {
+    "tvg-id": "star_sports_2",
+    "tvg-name": "Star Sports 2",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h",
+    "group-title": "JioHotstar\u2b50Sports",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv-push.hotstar.com/dash/live/2002465-b/sshd2livetvwv/master.mpd"
+  },
+  {
+    "tvg-id": "star_sports_select_hd1",
+    "tvg-name": "Star Sports Select HD1",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h",
+    "group-title": "JioHotstar\u2b50Sports",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv-push.hotstar.com/dash/live/2002470-b/ssselecthd1wv/master.mpd"
+  },
+  {
+    "tvg-id": "star_sports_select_hd2",
+    "tvg-name": "Star Sports Select HD2",
+    "tvg-logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h",
+    "group-title": "JioHotstar\u2b50Sports",
+    "license": {
+      "type": "org.w3.clearkey",
+      "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
+    },
+    "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+    "url": "https://livetv-push.hotstar.com/dash/live/2002471-b/ssselecthd2wv/master.mpd"
   }
 ]
