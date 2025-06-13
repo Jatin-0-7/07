@@ -21,9 +21,9 @@ export default async function handler(req, res) {
     const keyid = channel.license?.keyid || "";
     const key = channel.license?.key || "";
 
-    const userAgent = channel.headers?.["user-agent"] || "Mozilla/5.0";
-    const origin = "";  // can be filled from JSON if needed
-    const referer = ""; // can be filled from JSON if needed
+    const userAgent = channel.headers?.["user-agent"] || "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)";
+    const origin = "https://www.hotstar.com";  // can be filled from JSON if needed
+    const referer = "https://www.hotstar.com/"; // can be filled from JSON if needed
 
     // M3U EXTINF header
     m3u += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-language="${language}" tvg-logo="${logo}" group-title="${group}" group-logo="${groupLogo}", ${name}\n`;
