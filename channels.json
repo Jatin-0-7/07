@@ -9,7 +9,7 @@
       "key": "4538242a7c1a4cb89bcf180cc17e0000:4f18240ef66329a3db73a733e6a7aaf2"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005587/d70f7444749a46988107a08c1bea5c54/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005587/d70f7444749a46988107a08c1bea5c54/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_bharat",
@@ -21,7 +21,7 @@
       "key": "3dcee103bfa6461a85cb7991aa920000:58681f979afd5e5514a6552fad0f6c8a"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005590/ed7dde701895465191f34b11a64f7a0c/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005590/ed7dde701895465191f34b11a64f7a0c/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_utsav",
@@ -33,7 +33,7 @@
       "key": "10935324ce6b4e28a11f94554d970000:df019cdc881bd48c79d33bfc63ba22c6"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005605/7ec53f14f0594e309eb692104742e4a8/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005605/7ec53f14f0594e309eb692104742e4a8/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_pravah",
@@ -45,7 +45,7 @@
       "key": "905bfd41e9f3475a9dbb4978e7cc0000:8b63bf73680529786915066af770f095"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005596/ad727a90692141c39c906e7d41a58fcb/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005596/ad727a90692141c39c906e7d41a58fcb/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_gold",
@@ -57,7 +57,7 @@
       "key": "e1e2d64eaf514da88dbf341518910000:031bbcc4995ba31ea38fa18d66f9adf1"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005563/26f8508d98bd474f9abe90777c07b3d5/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_sports_hindi_1",
@@ -69,7 +69,7 @@
       "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv-push.hotstar.com/dash/live/2002466-b/sshindiwv/master.mpd"
+    "url": "https://livetv-push.hotstar.com/dash/live/2002466-b/sshindiwv/master.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_sports_1",
@@ -81,7 +81,7 @@
       "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv-push.hotstar.com/dash/live/2002464-b/sshd1livetvwv/master.mpd"
+    "url": "https://livetv-push.hotstar.com/dash/live/2002464-b/sshd1livetvwv/master.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "jalsha_movies",
@@ -93,7 +93,7 @@
       "key": "95ac951c39444bb791fdeef92cb30000:90930af3871b506ac7505717f52b8d61"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005554/62cac00d87ed45c6873e7869629143d8/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005554/62cac00d87ed45c6873e7869629143d8/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_jalsha",
@@ -105,7 +105,7 @@
       "key": "6ca420fd52fb4499b3908b9a5bee0000:60906249afe83c630a0067fbfa9b6aff"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005599/f68f754c61904c83a6e52180089dcc21/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005599/f68f754c61904c83a6e52180089dcc21/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_maa",
@@ -117,7 +117,7 @@
       "key": "29c5f9b74d834e778347d60185760000:f2f7694d3f01b85585f12e4bdc7e017b"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-intl-1540005675/93253993b1954ca39634c60773512ce6/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-intl-1540005675/93253993b1954ca39634c60773512ce6/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_maa_movies",
@@ -129,7 +129,7 @@
       "key": "51f97df0762849128458b49026ca0000:296dd0305e3d0cc0f63c79befb1a76b0"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005569/b4c6a9c5ab874e97ade58bcec1e89ed9/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005569/b4c6a9c5ab874e97ade58bcec1e89ed9/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "maa_gold",
@@ -141,7 +141,7 @@
       "key": "f6c081c04f154ac3b5af4c262d940000:27ba6f2ed7c89bc4091b8309298635c9"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005566/68f8844cce2640fa91a4dc6d4b82ca3c/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005566/68f8844cce2640fa91a4dc6d4b82ca3c/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_vijay",
@@ -153,7 +153,7 @@
       "key": "c8fb97f8e54840bcbf644ce0a1280000:0179c9912575454486c5b0874c604e05"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540023693/5134757d50a64dd292a3905ca9210b26/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540023693/5134757d50a64dd292a3905ca9210b26/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_suvarna_plus",
@@ -165,7 +165,7 @@
       "key": "f80a11c923674193966c36320bf50000:9c035e0b8438cb4ac8a9e4bb989e4056"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005611/8b2689ff3cc84723a124218e84f2606e/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005611/8b2689ff3cc84723a124218e84f2606e/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_suvarna",
@@ -177,7 +177,7 @@
       "key": "57acc8a5b3e44b22bed66f4d98b80000:2d8806d3ecf4564eed9a558ca2fccfc3"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005602/99461ef46a5a4b22ae49b7899b60e978/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005602/99461ef46a5a4b22ae49b7899b60e978/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "asianet_movies",
@@ -189,7 +189,7 @@
       "key": "1a1dbcda71b34988bb9dc7c475a10000:7e5b2b26e43a75a2e0052b7e239ad420"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005572/5d926a8fef3048f3a42d55b936fea7d4/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-india-1540005572/5d926a8fef3048f3a42d55b936fea7d4/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "asianet",
@@ -201,7 +201,7 @@
       "key": "413c14c05e694578bd1f71b4d8490000:588858a1e3e4f8c7fe42182c4f3449ff"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp1/gec-intl-1540005672/280ecda3146b424b84a970c5c6bbf4de/index.mpd"
+    "url": "https://livetv.hotstar.com/mp1/gec-intl-1540005672/280ecda3146b424b84a970c5c6bbf4de/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "asianet_plus",
@@ -213,7 +213,7 @@
       "key": "2f1eeca31d274261bb42d8ece35c0000:2a9d04d994b6f98f557f5591a3beb379"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005578/0aa297ae583848f38b4a182e052d72ae/index.mpd"
+    "url": "https://livetv.hotstar.com/mp2/gec-india-1540005578/0aa297ae583848f38b4a182e052d72ae/index.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_sports_2",
@@ -225,7 +225,7 @@
       "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv-push.hotstar.com/dash/live/2002465-b/sshd2livetvwv/master.mpd"
+    "url": "https://livetv-push.hotstar.com/dash/live/2002465-b/sshd2livetvwv/master.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_sports_select_hd1",
@@ -237,7 +237,7 @@
       "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv-push.hotstar.com/dash/live/2002470-b/ssselecthd1wv/master.mpd"
+    "url": "https://livetv-push.hotstar.com/dash/live/2002470-b/ssselecthd1wv/master.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   },
   {
     "tvg-id": "star_sports_select_hd2",
@@ -249,6 +249,6 @@
       "key": "fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d"
     },
     "user-agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-    "url": "https://livetv-push.hotstar.com/dash/live/2002471-b/ssselecthd2wv/master.mpd"
+    "url": "https://livetv-push.hotstar.com/dash/live/2002471-b/ssselecthd2wv/master.mpd|cookie=\"hdntl=exp=1749888013~acl=%2f*~id=653fbd936f55f702f1da0c705c056e38~data=hdntl~hmac=5647a4e3266ecbb496893c1568f04b1867d9c9502cbc2457c613474c60e87baf\""
   }
 ]
