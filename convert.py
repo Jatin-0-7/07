@@ -12,28 +12,28 @@ def parse_m3u_to_json(m3u_content):
     result = []
     item = {}
 
-    for i, line in enumerate(lines):
+    for line in lines:
         line = line.strip()
 
         if line.startswith("#EXTINF:"):
-            # Save the previous item before starting a new one
+            # Save previous item
             if "url" in item:
                 result.append(item)
                 item = {}
 
-            extinf_pattern = re.compile(r'#EXTINF:-1 tvg-logo="(.*?)" group-title="(.*?)",(.*)')
+            # Match extended info with all required fields
+            extinf_pattern = re.compile(
+                r'#EXTINF:-1 tvg-id="(.*?)" tvg-name="(.*?)" tvg-logo="(.*?)" group-title="(.*?)" group-logo="(.*?)",(.*)'
+            )
             match = extinf_pattern.match(line)
             if match:
-                tvg_logo = match.group(1)
-                group_title = match.group(2)
-                tvg_name = match.group(3).strip()
-                name_variants = format_name_variants(tvg_name)
                 item = {
-                    "tvg-id": name_variants["tvg-id"],
-                    "tvg-name": tvg_name,
-                    "tvg-logo": tvg_logo,
-                    "group-title": group_title,
-                    "name": name_variants["name"]
+                    "tvg-id": match.group(1),
+                    "tvg-name": match.group(2),
+                    "tvg-logo": match.group(3),
+                    "group-title": match.group(4),
+                    "group-logo": match.group(5),
+                    "name": format_name_variants(match.group(6).strip())["name"]
                 }
 
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_type="):
@@ -42,20 +42,28 @@ def parse_m3u_to_json(m3u_content):
         elif line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
             license_key = line.split("=", 1)[1]
             item.setdefault("license", {})
-            if ":" in license_key:
-                keyid, key = license_key.split(":", 1)
-                item["license"]["keyid"] = keyid
-                item["license"]["key"] = key
+            if "keyid=" in license_key and "&key=" in license_key:
+                keyid_match = re.search(r'keyid=([^&]+)', license_key)
+                key_match = re.search(r'key=([^&]+)', license_key)
+                if keyid_match and key_match:
+                    item["license"]["keyid"] = keyid_match.group(1)
+                    item["license"]["key"] = key_match.group(1)
             else:
                 item["license"]["key"] = license_key
 
-        elif line.startswith("#EXTVLCOPT:http-user-agent="):
-            item.setdefault("headers", {})["user-agent"] = line.split("=", 1)[1]
+        elif line.startswith("#EXTHTTP:"):
+            try:
+                headers = json.loads(line[len("#EXTHTTP:"):])
+                # Remove cookie if exists
+                headers.pop("cookie", None)
+                item["headers"] = headers
+            except json.JSONDecodeError:
+                pass  # Ignore malformed JSON
 
         elif line.startswith("http"):
+            # Keep full URL including cookies and headers
             item["url"] = line
 
-    # Don't forget to save the last item
     if "url" in item:
         result.append(item)
 
@@ -70,4 +78,4 @@ if __name__ == "__main__":
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2)
 
-    print("✅ Converted to channels.json with keyid & key")
+    print("✅ Converted to channels.json with full URL and no cookie in headers")
