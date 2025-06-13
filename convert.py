@@ -16,15 +16,15 @@ def parse_m3u_to_json(m3u_content):
         line = line.strip()
 
         if line.startswith("#EXTINF:"):
-            # Save previous item
             if "url" in item:
+                print("✅ Saving previous channel:", item.get("tvg-name"))
                 result.append(item)
                 item = {}
 
-            # Extract all key="value" fields
             attrs = dict(re.findall(r'(\w+?)="(.*?)"', line))
             title = line.split(",")[-1].strip()
 
+            print("📺 Found EXTINF:", title)
             item = {
                 "tvg-id": attrs.get("tvg-id", ""),
                 "tvg-name": attrs.get("tvg-name", title),
@@ -52,17 +52,20 @@ def parse_m3u_to_json(m3u_content):
         elif line.startswith("#EXTHTTP:"):
             try:
                 headers = json.loads(line[len("#EXTHTTP:"):])
-                headers.pop("cookie", None)  # Remove cookie
+                headers.pop("cookie", None)
                 item["headers"] = headers
-            except json.JSONDecodeError:
-                pass
+            except json.JSONDecodeError as e:
+                print("❌ JSON decode failed in EXTHTTP:", e)
 
         elif line.startswith("http"):
             item["url"] = line
+            print("🌐 Found URL:", line)
 
     if "url" in item:
+        print("✅ Saving last channel:", item.get("tvg-name"))
         result.append(item)
 
+    print(f"\n🔢 Total parsed channels: {len(result)}")
     return result
 
 if __name__ == "__main__":
@@ -74,4 +77,7 @@ if __name__ == "__main__":
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2)
 
-    print("✅ Converted to channels.json")
+    if not json_data:
+        print("⚠️ No channels found. Check #EXTINF and http lines in your data.txt")
+    else:
+        print("✅ channels.json created successfully.")
