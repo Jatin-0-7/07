@@ -20,7 +20,7 @@ jobs:
 
       - name: Fetch M3U File
         run: |
-          curl -L -o data.txt https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/artl.m3u
+          curl -L -o data.txt http://sflex07.fun/jiohotstar-vy07/07.php
 
       - name: Convert M3U to JSON
         run: |
