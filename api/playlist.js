@@ -15,17 +15,22 @@ export default async function handler(req, res) {
     const name = channel["tvg-name"] || "Unknown";
     const logo = channel["tvg-logo"] || "";
     const group = channel["group-title"] || "General";
-    const userAgent = channel.headers?.["user-agent"] || "";
+    const userAgent = "tv.accedo.airtel.wynk/1.97.1 (Linux;Android 13) ExoPlayerLib/2.19.1";
+    const drmScheme = channel["drmScheme"] || "";
+    const drmLicense = channel["drmLicense"] || "";
 
+    // #EXTINF
     m3u += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
 
-    if (userAgent) {
-      m3u += `#EXTVLCOPT:http-user-agent=${userAgent}\n`;
-    }
+    // user-agent
+    m3u += `#EXTVLCOPT:http-user-agent=${userAgent}\n`;
 
-    m3u += `${baseUrl}/api/js.mpd?id=${encodeURIComponent(id)}\n\n`;
+    // Stream URL with query params if DRM present
+    const streamUrl = `${baseUrl}/api/js.mpd?id=${encodeURIComponent(id)}${drmScheme && drmLicense ? `&drmScheme=${drmScheme}&drmLicense=${drmLicense}` : ""}`;
+    m3u += `${streamUrl}\n\n`;
   });
 
   res.setHeader("Content-Type", "text/plain");
   res.send(m3u);
 }
+
