@@ -2,25 +2,31 @@ import { readFile } from 'fs/promises';
 import path from 'path';
 
 export default async function handler(req, res) {
-    const { id } = req.query;
+  const { id } = req.query; // Channel name
+  if (!id) return res.status(400).send("❌ Missing channel ID");
 
-    if (!id) {
-        return res.status(400).json({ error: "Missing channel ID" });
+  const jsonPath = path.join(process.cwd(), 'channels.json');
+  const jsonData = await readFile(jsonPath, 'utf-8');
+  const channels = JSON.parse(jsonData);
+
+  const channel = channels.find(c => c["tvg-name"]?.toLowerCase() === id.toLowerCase());
+  if (!channel) return res.status(404).send("❌ Channel not found");
+
+  let url = channel.url;
+  const headers = {};
+
+  if (channel.headers?.["user-agent"]) {
+    headers["User-Agent"] = channel.headers["user-agent"];
+  }
+  if (channel.headers?.cookie) {
+    // If cookie is not already in the URL, add it
+    if (!url.includes("|")) {
+      url += `|cookie=${channel.headers.cookie}`;
     }
+  }
 
-    const jsonPath = path.join(process.cwd(), 'channels.json');
-    const jsonData = await readFile(jsonPath, 'utf-8');
-    const channels = JSON.parse(jsonData);
-
-    const channel = channels.find(ch => ch["tvg-id"] === id);
-
-    if (!channel || !channel.url) {
-        return res.status(404).json({ error: "Channel not found or URL missing" });
-    }
-
-    // Redirect to actual stream URL
-    res.writeHead(302, {
-        Location: channel.url
-    });
-    res.end();
+  // Respond with redirect and optional headers (or proxy manually if needed)
+  res.setHeader("Location", url);
+  res.statusCode = 302;
+  res.end();
 }
