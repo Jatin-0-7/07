@@ -9,7 +9,6 @@ def parse_m3u(content):
     channels = []
     current = {}
     license_key = ""
-    user_agent = ""
     cookie = ""
 
     for line in lines:
@@ -17,9 +16,6 @@ def parse_m3u(content):
 
         if line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
             license_key = line.split("=", 1)[1]
-
-        elif line.startswith("#EXTVLCOPT:http-user-agent="):
-            user_agent = line.split("=", 1)[1]
 
         elif line.startswith("#EXTHTTP:"):
             try:
@@ -42,25 +38,18 @@ def parse_m3u(content):
 
         elif line and not line.startswith("#"):
             base_url = line
-            formatted_url = base_url
-
-            if license_key and ":" in license_key and cookie:
-                keyid, key = license_key.split(":")
-                formatted_url = f"{base_url}?|Cookie={cookie}&drmScheme=clearkey&drmLicense={keyid}:{key}"
-
+            formatted_url = f"{base_url}?|Cookie={cookie}" if cookie else base_url
             current["url"] = formatted_url
 
-            if user_agent:
-                current["headers"] = {
-                    "user-agent": user_agent
-                }
+            if license_key and ":" in license_key:
+                keyid, key = license_key.split(":")
+                current["drmScheme"] = "clearkey"
+                current["drmLicense"] = f"{keyid}:{key}"
 
-            # Reset for next channel
-            license_key = ""
-            user_agent = ""
-            cookie = ""
             channels.append(current)
             current = {}
+            license_key = ""
+            cookie = ""
 
     return channels
 
@@ -77,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
