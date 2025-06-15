@@ -1,0 +1,33 @@
+name: Update channels.json hourly
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # every hour
+  workflow_dispatch:     # manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Run m3u to json script
+      run: python m3u_to_json.py
+
+    - name: Commit and push if changed
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add channels.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update channels.json"
+        git push
