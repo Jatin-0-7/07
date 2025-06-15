@@ -12,7 +12,7 @@ def parse_m3u(content):
     user_agent = ""
     cookie = ""
 
-    for i, line in enumerate(lines):
+    for line in lines:
         line = line.strip()
 
         if line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
@@ -42,27 +42,20 @@ def parse_m3u(content):
 
         elif line and not line.startswith("#"):
             base_url = line
-
-            # Prepare DRM + Cookie-based URL
             formatted_url = base_url
+
             if license_key and ":" in license_key and cookie:
                 keyid, key = license_key.split(":")
                 formatted_url = f"{base_url}?|Cookie={cookie}&drmScheme=clearkey&drmLicense={keyid}:{key}"
 
             current["url"] = formatted_url
 
-            if license_key:
-                current["license"] = {
-                    "type": "clearkey",
-                    "key": license_key
-                }
-
             if user_agent:
                 current["headers"] = {
                     "user-agent": user_agent
                 }
 
-            # Reset for next block
+            # Reset for next channel
             license_key = ""
             user_agent = ""
             cookie = ""
