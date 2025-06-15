@@ -20,12 +20,7 @@ export default async function handler(req, res) {
     return res.status(404).send("❌ Channel not found");
   }
 
-  let finalUrl = channel.url;
-  const userAgent = channel.headers?.["user-agent"];
-
-  if (userAgent) {
-    finalUrl += `|User-Agent=${userAgent}`;
-  }
+  const finalUrl = channel.url;
 
   res.writeHead(302, {
     Location: finalUrl
