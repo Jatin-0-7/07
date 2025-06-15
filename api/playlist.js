@@ -23,7 +23,7 @@ export default async function handler(req, res) {
       m3u += `#EXTVLCOPT:http-user-agent=${userAgent}\n`;
     }
 
-    m3u += `${baseUrl}/api/stream.mpd?id=${encodeURIComponent(id)}\n\n`;
+    m3u += `${baseUrl}/api/js.mpd?id=${encodeURIComponent(id)}\n\n`;
   });
 
   res.setHeader("Content-Type", "text/plain");
