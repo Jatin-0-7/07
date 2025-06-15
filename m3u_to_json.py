@@ -1,5 +1,3 @@
-# m3u_to_json.py
-
 import requests
 import json
 import re
@@ -7,27 +5,66 @@ import re
 M3U_URL = "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/artl.m3u"
 
 def parse_m3u(content):
+    lines = content.strip().splitlines()
     channels = []
-    lines = content.splitlines()
     current = {}
+    license_key = ""
+    user_agent = ""
+    cookie = ""
 
     for i, line in enumerate(lines):
         line = line.strip()
-        if line.startswith("#EXTINF"):
-            logo_match = re.search(r'tvg-logo="([^"]+)"', line)
-            group_match = re.search(r'group-title="([^"]+)"', line)
-            name_match = re.search(r',(.*)', line)
-            
+
+        if line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
+            license_key = line.split("=", 1)[1]
+
+        elif line.startswith("#KODIPROP:inputstream.adaptive.license_type="):
+            # Optional: validate license_type
+            pass
+
+        elif line.startswith("#EXTVLCOPT:http-user-agent="):
+            user_agent = line.split("=", 1)[1]
+
+        elif line.startswith("#EXTHTTP:"):
+            try:
+                headers_json = json.loads(line.replace("#EXTHTTP:", "").strip())
+                cookie = headers_json.get("cookie", "")
+            except:
+                pass
+
+        elif line.startswith("#EXTINF:"):
+            logo = re.search(r'tvg-logo="([^"]+)"', line)
+            group = re.search(r'group-title="([^"]+)"', line)
+            name = re.search(r',(.*)', line)
+
             current = {
-                "tvg-id": name_match.group(1).strip().replace(" ", "+") if name_match else "",
-                "tvg-name": name_match.group(1).strip() if name_match else "",
-                "tvg-logo": logo_match.group(1) if logo_match else "",
-                "group-title": group_match.group(1) if group_match else ""
+                "tvg-id": name.group(1).strip().replace(" ", "+") if name else "",
+                "tvg-name": name.group(1).strip() if name else "",
+                "tvg-logo": logo.group(1) if logo else "",
+                "group-title": group.group(1) if group else ""
             }
 
         elif line and not line.startswith("#"):
-            url = line
-            current["url"] = url
+            full_url = line
+            current["url"] = full_url
+
+            if license_key:
+                current["license"] = {
+                    "type": "clearkey",
+                    "key": license_key
+                }
+
+            if cookie or user_agent:
+                current["headers"] = {}
+                if cookie:
+                    current["headers"]["cookie"] = cookie
+                if user_agent:
+                    current["headers"]["user-agent"] = user_agent
+
+            # Reset for next block
+            license_key = ""
+            user_agent = ""
+            cookie = ""
             channels.append(current)
             current = {}
 
@@ -40,8 +77,9 @@ def main():
         channels = parse_m3u(m3u_content)
         with open("channels.json", "w", encoding="utf-8") as f:
             json.dump(channels, f, indent=2, ensure_ascii=False)
+        print("✅ channels.json updated successfully.")
     else:
-        print("Failed to fetch M3U. Status:", response.status_code)
+        print("❌ Failed to fetch M3U. Status:", response.status_code)
 
 if __name__ == "__main__":
     main()
