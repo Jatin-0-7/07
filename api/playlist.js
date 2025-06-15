@@ -21,8 +21,8 @@ export default async function handler(req, res) {
     const key = channel.license?.key || "";
 
     const userAgent = channel.headers?.["user-agent"] || "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)";
-    const origin = "https://www.hotstar.com";
-    const referer = "https://www.hotstar.com/";
+    const origin = "";
+    const referer = "";
 
     // EXTINF line
     m3u += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}" group-logo="${groupLogo}", ${name}\n`;
