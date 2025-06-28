@@ -1,32 +1,5 @@
 [
   {
-    "tvg-id": "DD+India",
-    "tvg-name": "DD India",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_INDIA/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_india/ndashd/dd_india.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfaW5kaWEvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=nQqMChODrWojZLxVKTVOT84LfmwGyZZ4V4VbPFXCd1jo1UVs9jvomszLzTXRcDn08XiUY6-HphbwywN8wjfxAA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfaW5kaWEvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=nQqMChODrWojZLxVKTVOT84LfmwGyZZ4V4VbPFXCd1jo1UVs9jvomszLzTXRcDn08XiUY6-HphbwywN8wjfxAA==",
-    "drmScheme": "clearkey",
-    "drmLicense": "4ed04e72681e324fb1cf10469d4177c3:2aa83fcaf7e0e966dbbf5d3c083baef5"
-  },
-  {
-    "tvg-id": "Epic",
-    "tvg-name": "Epic",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med2-2/epic/ndashd/epic.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9lcGljL25kYXNoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=rrrbKB9cg_0l5M8HblDllvefs6dxj4fR1qQ2AnAOoZkN0JbImX-zM6yPfF8Csq6SGnQaTIGn-Qme_ygOGBv2DQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9lcGljL25kYXNoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=rrrbKB9cg_0l5M8HblDllvefs6dxj4fR1qQ2AnAOoZkN0JbImX-zM6yPfF8Csq6SGnQaTIGn-Qme_ygOGBv2DQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "0ee72f27c65b3de7b82949ca2d76de3a:b092f77ae2fd22576521b2f8905885bc"
-  },
-  {
-    "tvg-id": "DD+National",
-    "tvg-name": "DD National",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_NATIONAL/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_national/ndashd/dd_national.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9uYXRpb25hbC9uZGFzaGQv:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=LDom-QzP4hGBuk8uYUdpThQ-2FyCyrJJUMdLTnbBOO5BDyhGfPko4X4jK7ceq5uUb7y_0s6D-yxCc3eSrl3LBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9uYXRpb25hbC9uZGFzaGQv:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=LDom-QzP4hGBuk8uYUdpThQ-2FyCyrJJUMdLTnbBOO5BDyhGfPko4X4jK7ceq5uUb7y_0s6D-yxCc3eSrl3LBQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "e0cfcb785f8f3ca0b5f77719abca3e3c:a7331d573ef3aeafb1401ada4d7a1a67"
-  },
-  {
     "tvg-id": "SET+HD",
     "tvg-name": "SET HD",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SET_HD/images/LOGO_HD/image.png",
@@ -36,76 +9,13 @@
     "drmLicense": "3931a693a596357b85c887b4cd6c1860:e61c04aa578191a33d39842028c51835"
   },
   {
-    "tvg-id": "SONY+SAB",
-    "tvg-name": "SONY SAB",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",
+    "tvg-id": "DD+UP",
+    "tvg-name": "DD UP",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_UP/images/LOGO_HD/image.png",
     "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med14-2/sony_sab/ndashd/sony_sab.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=f4hy_INOhSJ-09_xCv8KgLLrlLqH_32d7m_fffE09nMYtmkh6v1KtcljqpCbELi6W9FG7Otxebf4BnMCZkE0CA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=f4hy_INOhSJ-09_xCv8KgLLrlLqH_32d7m_fffE09nMYtmkh6v1KtcljqpCbELi6W9FG7Otxebf4BnMCZkE0CA==",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_up/ndashd/dd_up.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF91cC9uZGFzaGQv:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=V-A-prz0bj5YZCK1e35YX8KR9BlMLlhpBaq7WW260RlDwBl29UY0S3xu9Rwz5Hs8kK0AHY7faNG1ypHANPhIBg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF91cC9uZGFzaGQv:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=V-A-prz0bj5YZCK1e35YX8KR9BlMLlhpBaq7WW260RlDwBl29UY0S3xu9Rwz5Hs8kK0AHY7faNG1ypHANPhIBg==",
     "drmScheme": "clearkey",
-    "drmLicense": "49275a5eddfd38abb2ad95e90c75b2a0:1d523581670d2f288391d91ca43b87e2"
-  },
-  {
-    "tvg-id": "Investigation+Discovery",
-    "tvg-name": "Investigation Discovery",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med2-2/investigation_discovery/ndashd/investigation_discovery.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9pbnZlc3RpZ2F0aW9uX2Rpc2NvdmVyeS9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=_Xoli6ss4Nefi7Wd9LOul-aLrkQaSsmjmiMYpRHZ0PDwAOPYXP5ZOQ45L53OPEB-8sENfwOdKybsvCtGWInICw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9pbnZlc3RpZ2F0aW9uX2Rpc2NvdmVyeS9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=_Xoli6ss4Nefi7Wd9LOul-aLrkQaSsmjmiMYpRHZ0PDwAOPYXP5ZOQ45L53OPEB-8sENfwOdKybsvCtGWInICw==",
-    "drmScheme": "clearkey",
-    "drmLicense": "1ce668c7edf9354ca2c1c08efd50ea4a:01ef93e2f2c9e07b17a335464301f4c4"
-  },
-  {
-    "tvg-id": "DD+MP",
-    "tvg-name": "DD MP",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_MP/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_mp/ndashd/dd_mp.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfbXAvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=jmcotjyQ-xKVij4hZogJttJ0jakoVVMs7pbXdRqVf4zHJfpRPBGwIz4LKxx9FreqvtA19fwW1cd4lOi3lnshBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfbXAvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=jmcotjyQ-xKVij4hZogJttJ0jakoVVMs7pbXdRqVf4zHJfpRPBGwIz4LKxx9FreqvtA19fwW1cd4lOi3lnshBQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "c88874cdd33c3240a4ccc20b8bf9000f:4839c814b2e0e81da72baeff94327e82"
-  },
-  {
-    "tvg-id": "Investigation+Discovery+HD",
-    "tvg-name": "Investigation Discovery HD",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY_HD/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med14-2/investigation_discovery_hd/ndashhd/investigation_discovery_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvaW52ZXN0aWdhdGlvbl9kaXNjb3ZlcnlfaGQvbmRhc2hoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=U5SGJKSQC8F8fYUrlPLr24iIZ8ntnU0CedEG5mwq7uvypYwgSZvh9kV_3LTHnwHeTHQM5AW9-4QRHRJomSbcAg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvaW52ZXN0aWdhdGlvbl9kaXNjb3ZlcnlfaGQvbmRhc2hoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=U5SGJKSQC8F8fYUrlPLr24iIZ8ntnU0CedEG5mwq7uvypYwgSZvh9kV_3LTHnwHeTHQM5AW9-4QRHRJomSbcAg==",
-    "drmScheme": "clearkey",
-    "drmLicense": "65ecbf9c00f83bcbbe1fbc760defb97b:104323e26915a719541f40cd66129320"
-  },
-  {
-    "tvg-id": "Big+Magic",
-    "tvg-name": "Big Magic",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BIG_MAGIC/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med5-2/big_magic/ndashd/big_magic.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDUtMi9iaWdfbWFnaWMvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7f3IfKfFA04Bk9Ik5m7Ghha_DSBFp913kvhZ-dU_iEBuIk38UeD4kJvu2oY_PmiiHSa9Xy7eaEsOi1xm1zGMDg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDUtMi9iaWdfbWFnaWMvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7f3IfKfFA04Bk9Ik5m7Ghha_DSBFp913kvhZ-dU_iEBuIk38UeD4kJvu2oY_PmiiHSa9Xy7eaEsOi1xm1zGMDg==",
-    "drmScheme": "clearkey",
-    "drmLicense": "2b9bf6a3be4632548a81d29cf272d58a:c1e2f6daaa32fb170799f8d5237a77d7"
-  },
-  {
-    "tvg-id": "DD+Kisan",
-    "tvg-name": "DD Kisan",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_KISAN/images/LOGO_HD/image.png",
-    "group-title": "Infotainment",
-    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_kisan/ndashd/dd_kisan.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfa2lzYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=tcRMbRSZQlxUj9ND9PsRrAsm3daC0KisC-aHguDOJLoB7jeT0PfXG_y03RmD5M2VSzqNCpQD5N92htBvofiFDQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfa2lzYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=tcRMbRSZQlxUj9ND9PsRrAsm3daC0KisC-aHguDOJLoB7jeT0PfXG_y03RmD5M2VSzqNCpQD5N92htBvofiFDQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "5c858470533b34b49028725ee43c2ae8:8e96b541bde1a21ccdc5650f855221c5"
-  },
-  {
-    "tvg-id": "Sony+Pal",
-    "tvg-name": "Sony Pal",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_PAL/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/sony_pal/ndashd/sony_pal.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9zb255X3BhbC9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=EflZkMCP78gv7UWU7JbXVyuv4Y7JA_4kaFX0iri4TYsv0lSwWAxVC9PXEHbIl6bLTPeBbP04HgM7qc5NnwmMBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9zb255X3BhbC9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=EflZkMCP78gv7UWU7JbXVyuv4Y7JA_4kaFX0iri4TYsv0lSwWAxVC9PXEHbIl6bLTPeBbP04HgM7qc5NnwmMBQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "167101d0fd57325fb9124d8c478a63d8:2002e1f0f2c1665afffcd6fa0dd64925"
-  },
-  {
-    "tvg-id": "Zee+TV",
-    "tvg-name": "Zee TV",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_tv/ndashd/zee_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3R2L25kYXNoZC8=:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=UuBC1ZI17gk6m5jEEeQcYH13CIeKgPMpzKsDVigWmph8u3_KF2SQ0tQJGrWb5A-_lYlPXuvVzVgd0-JgOQlQAQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3R2L25kYXNoZC8=:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=UuBC1ZI17gk6m5jEEeQcYH13CIeKgPMpzKsDVigWmph8u3_KF2SQ0tQJGrWb5A-_lYlPXuvVzVgd0-JgOQlQAQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "d296843afb053136af4d2c5aefce9398:8ba9f4a2eb8c42adc82086dd760da9b2"
+    "drmLicense": "6abe51a584e73970badcddcdc0097d3f:78c5e6a068875109b573499e3f917d6e"
   },
   {
     "tvg-id": "Ishara+TV",
@@ -117,13 +27,22 @@
     "drmLicense": "d57fc2e5eda934f8954c95930fefedde:de286ba04a64e29cb82480ad6d4f2eeb"
   },
   {
-    "tvg-id": "DD+Rajasthan",
-    "tvg-name": "DD Rajasthan",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_RAJASTHAN/images/LOGO_HD/image.png",
+    "tvg-id": "SONY+SAB",
+    "tvg-name": "SONY SAB",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",
     "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_rajasthan/ndashd/dd_rajasthan.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9yYWphc3RoYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7G9Qw7XYlzO1h9GxPZrQDvOW8SP-ZWfLrjos0zVO9irCBDBfqr7ELBFuuuBOpKZ6jfuUhqGCVlS88bcDs668Aw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9yYWphc3RoYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7G9Qw7XYlzO1h9GxPZrQDvOW8SP-ZWfLrjos0zVO9irCBDBfqr7ELBFuuuBOpKZ6jfuUhqGCVlS88bcDs668Aw==",
+    "url": "https://companion-live-play1.streamready.in/live/med14-2/sony_sab/ndashd/sony_sab.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=f4hy_INOhSJ-09_xCv8KgLLrlLqH_32d7m_fffE09nMYtmkh6v1KtcljqpCbELi6W9FG7Otxebf4BnMCZkE0CA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=f4hy_INOhSJ-09_xCv8KgLLrlLqH_32d7m_fffE09nMYtmkh6v1KtcljqpCbELi6W9FG7Otxebf4BnMCZkE0CA==",
     "drmScheme": "clearkey",
-    "drmLicense": "1d7a716f41dc3a60be0d1a81837e5e27:1d0ee2dfab371d87151e6f78d44e463f"
+    "drmLicense": "49275a5eddfd38abb2ad95e90c75b2a0:1d523581670d2f288391d91ca43b87e2"
+  },
+  {
+    "tvg-id": "Epic",
+    "tvg-name": "Epic",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med2-2/epic/ndashd/epic.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9lcGljL25kYXNoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=rrrbKB9cg_0l5M8HblDllvefs6dxj4fR1qQ2AnAOoZkN0JbImX-zM6yPfF8Csq6SGnQaTIGn-Qme_ygOGBv2DQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9lcGljL25kYXNoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=rrrbKB9cg_0l5M8HblDllvefs6dxj4fR1qQ2AnAOoZkN0JbImX-zM6yPfF8Csq6SGnQaTIGn-Qme_ygOGBv2DQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "0ee72f27c65b3de7b82949ca2d76de3a:b092f77ae2fd22576521b2f8905885bc"
   },
   {
     "tvg-id": "DD+Bharati",
@@ -135,31 +54,13 @@
     "drmLicense": "e99c9fe4c778322caa4cdf2876b4584c:e2736f125bb2c4c08b24503abaa75b5f"
   },
   {
-    "tvg-id": "Zee+Anmol",
-    "tvg-name": "Zee Anmol",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL/images/LOGO_HD/image.png",
+    "tvg-id": "Big+Magic",
+    "tvg-name": "Big Magic",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BIG_MAGIC/images/LOGO_HD/image.png",
     "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_anmol/ndashd/zee_anmol.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2FubW9sL25kYXNoZC8=:Expires=1751164214:KeyName=iptv-prod-media-cdn-keys:Signature=mfAs-UOclZmBz9Hxjc4a0ZKO2H5expoJp5QlSLdSES21qebYrAc9f7QMRTaI2BBKhC5Bqf8tKMPvYXOYhv5MBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2FubW9sL25kYXNoZC8=:Expires=1751164214:KeyName=iptv-prod-media-cdn-keys:Signature=mfAs-UOclZmBz9Hxjc4a0ZKO2H5expoJp5QlSLdSES21qebYrAc9f7QMRTaI2BBKhC5Bqf8tKMPvYXOYhv5MBQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med5-2/big_magic/ndashd/big_magic.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDUtMi9iaWdfbWFnaWMvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7f3IfKfFA04Bk9Ik5m7Ghha_DSBFp913kvhZ-dU_iEBuIk38UeD4kJvu2oY_PmiiHSa9Xy7eaEsOi1xm1zGMDg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDUtMi9iaWdfbWFnaWMvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7f3IfKfFA04Bk9Ik5m7Ghha_DSBFp913kvhZ-dU_iEBuIk38UeD4kJvu2oY_PmiiHSa9Xy7eaEsOi1xm1zGMDg==",
     "drmScheme": "clearkey",
-    "drmLicense": "da3505bfb2663f72bd43e27235e58869:cfb1202dd5acfb00ac40a54248ecfb28"
-  },
-  {
-    "tvg-id": "&TV",
-    "tvg-name": "&TV",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med15-2/and_tv/ndashd/and_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvYW5kX3R2L25kYXNoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=ALQ33fMOtcFoCRgsB3QI109PXCL0mEuQFgTTz_ATvk4KG6njThmzeSmPPiUWhpX_evqB-6r_DsyrpHL09_nhDw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvYW5kX3R2L25kYXNoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=ALQ33fMOtcFoCRgsB3QI109PXCL0mEuQFgTTz_ATvk4KG6njThmzeSmPPiUWhpX_evqB-6r_DsyrpHL09_nhDw==",
-    "drmScheme": "clearkey",
-    "drmLicense": "b8ef304d6c1e319abae99a4fe2072f75:d1bab6bd5236eb43da8a4ec18c587342"
-  },
-  {
-    "tvg-id": "Sony+SAB+HD",
-    "tvg-name": "Sony SAB HD",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB_HD/images/LOGO_HD/image.png",
-    "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med15-2/sony_sab_hd/ndashhd/sony_sab_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvc29ueV9zYWJfaGQvbmRhc2hoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=SoXpyJ01NgfUGSf0N4nFu1NBCTTZrwePcKrT63evboi5qE3yS99r5LG2_sFmtUkvn1Lp456x5vPyHKD9y24XBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvc29ueV9zYWJfaGQvbmRhc2hoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=SoXpyJ01NgfUGSf0N4nFu1NBCTTZrwePcKrT63evboi5qE3yS99r5LG2_sFmtUkvn1Lp456x5vPyHKD9y24XBQ==",
-    "drmScheme": "clearkey",
-    "drmLicense": "9ac369bd363b3f36bfc0d0b19bb415eb:114cd88601c9bd5db0080c8067431590"
+    "drmLicense": "2b9bf6a3be4632548a81d29cf272d58a:c1e2f6daaa32fb170799f8d5237a77d7"
   },
   {
     "tvg-id": "SET",
@@ -171,13 +72,112 @@
     "drmLicense": "df87b8c858ff3e808ac58e54302c04b3:094452c9aa1df2f8dd507d6235385575"
   },
   {
-    "tvg-id": "DD+UP",
-    "tvg-name": "DD UP",
-    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_UP/images/LOGO_HD/image.png",
+    "tvg-id": "Sony+SAB+HD",
+    "tvg-name": "Sony SAB HD",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB_HD/images/LOGO_HD/image.png",
     "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_up/ndashd/dd_up.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF91cC9uZGFzaGQv:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=V-A-prz0bj5YZCK1e35YX8KR9BlMLlhpBaq7WW260RlDwBl29UY0S3xu9Rwz5Hs8kK0AHY7faNG1ypHANPhIBg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF91cC9uZGFzaGQv:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=V-A-prz0bj5YZCK1e35YX8KR9BlMLlhpBaq7WW260RlDwBl29UY0S3xu9Rwz5Hs8kK0AHY7faNG1ypHANPhIBg==",
+    "url": "https://companion-live-play1.streamready.in/live/med15-2/sony_sab_hd/ndashhd/sony_sab_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvc29ueV9zYWJfaGQvbmRhc2hoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=SoXpyJ01NgfUGSf0N4nFu1NBCTTZrwePcKrT63evboi5qE3yS99r5LG2_sFmtUkvn1Lp456x5vPyHKD9y24XBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvc29ueV9zYWJfaGQvbmRhc2hoZC8=:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=SoXpyJ01NgfUGSf0N4nFu1NBCTTZrwePcKrT63evboi5qE3yS99r5LG2_sFmtUkvn1Lp456x5vPyHKD9y24XBQ==",
     "drmScheme": "clearkey",
-    "drmLicense": "6abe51a584e73970badcddcdc0097d3f:78c5e6a068875109b573499e3f917d6e"
+    "drmLicense": "9ac369bd363b3f36bfc0d0b19bb415eb:114cd88601c9bd5db0080c8067431590"
+  },
+  {
+    "tvg-id": "DD+India",
+    "tvg-name": "DD India",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_INDIA/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_india/ndashd/dd_india.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfaW5kaWEvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=nQqMChODrWojZLxVKTVOT84LfmwGyZZ4V4VbPFXCd1jo1UVs9jvomszLzTXRcDn08XiUY6-HphbwywN8wjfxAA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfaW5kaWEvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=nQqMChODrWojZLxVKTVOT84LfmwGyZZ4V4VbPFXCd1jo1UVs9jvomszLzTXRcDn08XiUY6-HphbwywN8wjfxAA==",
+    "drmScheme": "clearkey",
+    "drmLicense": "4ed04e72681e324fb1cf10469d4177c3:2aa83fcaf7e0e966dbbf5d3c083baef5"
+  },
+  {
+    "tvg-id": "Investigation+Discovery+HD",
+    "tvg-name": "Investigation Discovery HD",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY_HD/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med14-2/investigation_discovery_hd/ndashhd/investigation_discovery_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvaW52ZXN0aWdhdGlvbl9kaXNjb3ZlcnlfaGQvbmRhc2hoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=U5SGJKSQC8F8fYUrlPLr24iIZ8ntnU0CedEG5mwq7uvypYwgSZvh9kV_3LTHnwHeTHQM5AW9-4QRHRJomSbcAg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvaW52ZXN0aWdhdGlvbl9kaXNjb3ZlcnlfaGQvbmRhc2hoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=U5SGJKSQC8F8fYUrlPLr24iIZ8ntnU0CedEG5mwq7uvypYwgSZvh9kV_3LTHnwHeTHQM5AW9-4QRHRJomSbcAg==",
+    "drmScheme": "clearkey",
+    "drmLicense": "65ecbf9c00f83bcbbe1fbc760defb97b:104323e26915a719541f40cd66129320"
+  },
+  {
+    "tvg-id": "&TV",
+    "tvg-name": "&TV",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med15-2/and_tv/ndashd/and_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvYW5kX3R2L25kYXNoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=ALQ33fMOtcFoCRgsB3QI109PXCL0mEuQFgTTz_ATvk4KG6njThmzeSmPPiUWhpX_evqB-6r_DsyrpHL09_nhDw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE1LTIvYW5kX3R2L25kYXNoZC8=:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=ALQ33fMOtcFoCRgsB3QI109PXCL0mEuQFgTTz_ATvk4KG6njThmzeSmPPiUWhpX_evqB-6r_DsyrpHL09_nhDw==",
+    "drmScheme": "clearkey",
+    "drmLicense": "b8ef304d6c1e319abae99a4fe2072f75:d1bab6bd5236eb43da8a4ec18c587342"
+  },
+  {
+    "tvg-id": "DD+Rajasthan",
+    "tvg-name": "DD Rajasthan",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_RAJASTHAN/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_rajasthan/ndashd/dd_rajasthan.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9yYWphc3RoYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7G9Qw7XYlzO1h9GxPZrQDvOW8SP-ZWfLrjos0zVO9irCBDBfqr7ELBFuuuBOpKZ6jfuUhqGCVlS88bcDs668Aw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9yYWphc3RoYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=7G9Qw7XYlzO1h9GxPZrQDvOW8SP-ZWfLrjos0zVO9irCBDBfqr7ELBFuuuBOpKZ6jfuUhqGCVlS88bcDs668Aw==",
+    "drmScheme": "clearkey",
+    "drmLicense": "1d7a716f41dc3a60be0d1a81837e5e27:1d0ee2dfab371d87151e6f78d44e463f"
+  },
+  {
+    "tvg-id": "DD+MP",
+    "tvg-name": "DD MP",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_MP/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_mp/ndashd/dd_mp.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfbXAvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=jmcotjyQ-xKVij4hZogJttJ0jakoVVMs7pbXdRqVf4zHJfpRPBGwIz4LKxx9FreqvtA19fwW1cd4lOi3lnshBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfbXAvbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=jmcotjyQ-xKVij4hZogJttJ0jakoVVMs7pbXdRqVf4zHJfpRPBGwIz4LKxx9FreqvtA19fwW1cd4lOi3lnshBQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "c88874cdd33c3240a4ccc20b8bf9000f:4839c814b2e0e81da72baeff94327e82"
+  },
+  {
+    "tvg-id": "Zee+Anmol",
+    "tvg-name": "Zee Anmol",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_anmol/ndashd/zee_anmol.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2FubW9sL25kYXNoZC8=:Expires=1751164214:KeyName=iptv-prod-media-cdn-keys:Signature=mfAs-UOclZmBz9Hxjc4a0ZKO2H5expoJp5QlSLdSES21qebYrAc9f7QMRTaI2BBKhC5Bqf8tKMPvYXOYhv5MBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2FubW9sL25kYXNoZC8=:Expires=1751164214:KeyName=iptv-prod-media-cdn-keys:Signature=mfAs-UOclZmBz9Hxjc4a0ZKO2H5expoJp5QlSLdSES21qebYrAc9f7QMRTaI2BBKhC5Bqf8tKMPvYXOYhv5MBQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "da3505bfb2663f72bd43e27235e58869:cfb1202dd5acfb00ac40a54248ecfb28"
+  },
+  {
+    "tvg-id": "DD+Kisan",
+    "tvg-name": "DD Kisan",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_KISAN/images/LOGO_HD/image.png",
+    "group-title": "Infotainment",
+    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_kisan/ndashd/dd_kisan.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfa2lzYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=tcRMbRSZQlxUj9ND9PsRrAsm3daC0KisC-aHguDOJLoB7jeT0PfXG_y03RmD5M2VSzqNCpQD5N92htBvofiFDQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfa2lzYW4vbmRhc2hkLw==:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=tcRMbRSZQlxUj9ND9PsRrAsm3daC0KisC-aHguDOJLoB7jeT0PfXG_y03RmD5M2VSzqNCpQD5N92htBvofiFDQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "5c858470533b34b49028725ee43c2ae8:8e96b541bde1a21ccdc5650f855221c5"
+  },
+  {
+    "tvg-id": "DD+National",
+    "tvg-name": "DD National",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_NATIONAL/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_national/ndashd/dd_national.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9uYXRpb25hbC9uZGFzaGQv:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=LDom-QzP4hGBuk8uYUdpThQ-2FyCyrJJUMdLTnbBOO5BDyhGfPko4X4jK7ceq5uUb7y_0s6D-yxCc3eSrl3LBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9uYXRpb25hbC9uZGFzaGQv:Expires=1751169629:KeyName=iptv-prod-media-cdn-keys:Signature=LDom-QzP4hGBuk8uYUdpThQ-2FyCyrJJUMdLTnbBOO5BDyhGfPko4X4jK7ceq5uUb7y_0s6D-yxCc3eSrl3LBQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "e0cfcb785f8f3ca0b5f77719abca3e3c:a7331d573ef3aeafb1401ada4d7a1a67"
+  },
+  {
+    "tvg-id": "Zee+TV",
+    "tvg-name": "Zee TV",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_tv/ndashd/zee_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3R2L25kYXNoZC8=:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=UuBC1ZI17gk6m5jEEeQcYH13CIeKgPMpzKsDVigWmph8u3_KF2SQ0tQJGrWb5A-_lYlPXuvVzVgd0-JgOQlQAQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3R2L25kYXNoZC8=:Expires=1751166019:KeyName=iptv-prod-media-cdn-keys:Signature=UuBC1ZI17gk6m5jEEeQcYH13CIeKgPMpzKsDVigWmph8u3_KF2SQ0tQJGrWb5A-_lYlPXuvVzVgd0-JgOQlQAQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "d296843afb053136af4d2c5aefce9398:8ba9f4a2eb8c42adc82086dd760da9b2"
+  },
+  {
+    "tvg-id": "Sony+Pal",
+    "tvg-name": "Sony Pal",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_PAL/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/sony_pal/ndashd/sony_pal.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9zb255X3BhbC9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=EflZkMCP78gv7UWU7JbXVyuv4Y7JA_4kaFX0iri4TYsv0lSwWAxVC9PXEHbIl6bLTPeBbP04HgM7qc5NnwmMBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9zb255X3BhbC9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=EflZkMCP78gv7UWU7JbXVyuv4Y7JA_4kaFX0iri4TYsv0lSwWAxVC9PXEHbIl6bLTPeBbP04HgM7qc5NnwmMBQ==",
+    "drmScheme": "clearkey",
+    "drmLicense": "167101d0fd57325fb9124d8c478a63d8:2002e1f0f2c1665afffcd6fa0dd64925"
+  },
+  {
+    "tvg-id": "Investigation+Discovery",
+    "tvg-name": "Investigation Discovery",
+    "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY/images/LOGO_HD/image.png",
+    "group-title": "Entertainment",
+    "url": "https://companion-live-play1.streamready.in/live/med2-2/investigation_discovery/ndashd/investigation_discovery.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9pbnZlc3RpZ2F0aW9uX2Rpc2NvdmVyeS9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=_Xoli6ss4Nefi7Wd9LOul-aLrkQaSsmjmiMYpRHZ0PDwAOPYXP5ZOQ45L53OPEB-8sENfwOdKybsvCtGWInICw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9pbnZlc3RpZ2F0aW9uX2Rpc2NvdmVyeS9uZGFzaGQv:Expires=1751165112:KeyName=iptv-prod-media-cdn-keys:Signature=_Xoli6ss4Nefi7Wd9LOul-aLrkQaSsmjmiMYpRHZ0PDwAOPYXP5ZOQ45L53OPEB-8sENfwOdKybsvCtGWInICw==",
+    "drmScheme": "clearkey",
+    "drmLicense": "1ce668c7edf9354ca2c1c08efd50ea4a:01ef93e2f2c9e07b17a335464301f4c4"
   },
   {
     "tvg-id": "Zee+Cafe",
@@ -931,7 +931,7 @@
     "tvg-name": "CARTOON NETWORK HD+",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png",
     "group-title": "Kids",
-    "url": "https://companion-live-play1.streamready.in/live/med14-2/cartoon_network_hd_plus/ndashhd/cartoon_network_hd_plus.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvY2FydG9vbl9uZXR3b3JrX2hkX3BsdXMvbmRhc2hoZC8=:Expires=1751139018:KeyName=iptv-prod-media-cdn-keys:Signature=ZmGf8hyGluQNjhg8SNz7LNmnMB_4df9dRy8SXpuP_n5ZZZhONcxz34CI9hvwklZkG1wHUEE0HJoWy7gQ4WwACA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvY2FydG9vbl9uZXR3b3JrX2hkX3BsdXMvbmRhc2hoZC8=:Expires=1751139018:KeyName=iptv-prod-media-cdn-keys:Signature=ZmGf8hyGluQNjhg8SNz7LNmnMB_4df9dRy8SXpuP_n5ZZZhONcxz34CI9hvwklZkG1wHUEE0HJoWy7gQ4WwACA==",
+    "url": "https://companion-live-play1.streamready.in/live/med14-2/cartoon_network_hd_plus/ndashhd/cartoon_network_hd_plus.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvY2FydG9vbl9uZXR3b3JrX2hkX3BsdXMvbmRhc2hoZC8=:Expires=1751173224:KeyName=iptv-prod-media-cdn-keys:Signature=MLiy7dbfW4C3AwcZt_LlA67nEXAerXqWsrHnTVttxX8AJthatptnRl2FBf91fnPkGu_f_Leo6tBToqV19c6GAQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvY2FydG9vbl9uZXR3b3JrX2hkX3BsdXMvbmRhc2hoZC8=:Expires=1751173224:KeyName=iptv-prod-media-cdn-keys:Signature=MLiy7dbfW4C3AwcZt_LlA67nEXAerXqWsrHnTVttxX8AJthatptnRl2FBf91fnPkGu_f_Leo6tBToqV19c6GAQ==",
     "drmScheme": "clearkey",
     "drmLicense": "62fe6737b1b63da19447fda0329a4725:039b5cf4ea87a0acc53daf56996f6efa"
   },
@@ -1012,7 +1012,7 @@
     "tvg-name": "Zee Marathi",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_MARATHI/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_marathi/ndashd/zee_marathi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX21hcmF0aGkvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=HmbsP6FDJYMKTd05K-ntFGctR2ezYAWIrUQ-QN1HVU0tC-fZhVaE7DOmyECOy3mgeUgFB0DEZ58_3yt0MLpwCQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX21hcmF0aGkvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=HmbsP6FDJYMKTd05K-ntFGctR2ezYAWIrUQ-QN1HVU0tC-fZhVaE7DOmyECOy3mgeUgFB0DEZ58_3yt0MLpwCQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_marathi/ndashd/zee_marathi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX21hcmF0aGkvbmRhc2hkLw==:Expires=1751178618:KeyName=iptv-prod-media-cdn-keys:Signature=rd8vQvUqp-l7WJEB0M92mBEol5JayA2cKKpXlbULe-Ly6WltUFQZAwlwnTuNyxQitwUMglypnGEn0PVXYc2FCw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX21hcmF0aGkvbmRhc2hkLw==:Expires=1751178618:KeyName=iptv-prod-media-cdn-keys:Signature=rd8vQvUqp-l7WJEB0M92mBEol5JayA2cKKpXlbULe-Ly6WltUFQZAwlwnTuNyxQitwUMglypnGEn0PVXYc2FCw==",
     "drmScheme": "clearkey",
     "drmLicense": "da4901499aa53185ab045b2ee06eb980:5a3e11038b70246f602b394c80556967"
   },
@@ -1066,7 +1066,7 @@
     "tvg-name": "Saam TV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAAM_TV/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med3-2/saam_tv/ndashd/saam_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9zYWFtX3R2L25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=xn8x44bS47FyKwsANfFgQBmA5MGqb_WuOsBndaGTkFPBzz4lkMe-5lOZ8fp5JSeYNJzyLSwjZxMCirwU8bpECQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9zYWFtX3R2L25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=xn8x44bS47FyKwsANfFgQBmA5MGqb_WuOsBndaGTkFPBzz4lkMe-5lOZ8fp5JSeYNJzyLSwjZxMCirwU8bpECQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med3-2/saam_tv/ndashd/saam_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9zYWFtX3R2L25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=a14nROgK3lrgBt5IO9b9bkBQC2zbkJG995ZkXgKVF8__0YFMKLsWqb3ONX2js2WaeM87iyhyyaILn9aRVZ_0AQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9zYWFtX3R2L25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=a14nROgK3lrgBt5IO9b9bkBQC2zbkJG995ZkXgKVF8__0YFMKLsWqb3ONX2js2WaeM87iyhyyaILn9aRVZ_0AQ==",
     "drmScheme": "clearkey",
     "drmLicense": "6785533705883c0282a77cd8accfd7c1:0c3040f192de0f73bc6e9be91dd45bb2"
   },
@@ -1093,7 +1093,7 @@
     "tvg-name": "PTC Punjabi",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_PUNJABI/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/ptc_punjabi/ndashd/ptc_punjabi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9wdGNfcHVuamFiaS9uZGFzaGQv:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=j2XpqvzcIGrCbuvN0oRR9tILBwKdsQAH2YePaStWnNgbyZRUdxhbQcj-Iemk6SAbFZpw8467LaUj5rKpi_ebCw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9wdGNfcHVuamFiaS9uZGFzaGQv:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=j2XpqvzcIGrCbuvN0oRR9tILBwKdsQAH2YePaStWnNgbyZRUdxhbQcj-Iemk6SAbFZpw8467LaUj5rKpi_ebCw==",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/ptc_punjabi/ndashd/ptc_punjabi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9wdGNfcHVuamFiaS9uZGFzaGQv:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=M07Gy9hcJRb4F-4WzKHylIDb4yThio9FsVJPEzR_IYY7IyQuEjn910WsDDBgzzLKLdmNAd0MD1p-qZgI99fABw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9wdGNfcHVuamFiaS9uZGFzaGQv:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=M07Gy9hcJRb4F-4WzKHylIDb4yThio9FsVJPEzR_IYY7IyQuEjn910WsDDBgzzLKLdmNAd0MD1p-qZgI99fABw==",
     "drmScheme": "clearkey",
     "drmLicense": "c7889f78a20a3cfe94ae1302c5808f75:a1b025d54dd334eda9b266453851f3a8"
   },
@@ -1102,7 +1102,7 @@
     "tvg-name": "Zee Punjabi",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_PUNJABI/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_punjabi/ndashd/zee_punjabi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3B1bmphYmkvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=ca2s2bfa00NzzP184adB2IJNEboUfq513UtOeGkeqHKEvI9ORmgQwHGsem1IU-0PzWccQ5_9fi2Jt3l7YGo2Ag==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3B1bmphYmkvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=ca2s2bfa00NzzP184adB2IJNEboUfq513UtOeGkeqHKEvI9ORmgQwHGsem1IU-0PzWccQ5_9fi2Jt3l7YGo2Ag==",
+    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_punjabi/ndashd/zee_punjabi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3B1bmphYmkvbmRhc2hkLw==:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=OeMQR6mooUecbsiqbMOkWyIWEmV6ViPkNOfZL8NiHLwu7eexwyWlu19CvZ6zYGmzTt3Vgjn5Nmoj9rJ-7ywiDw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX3B1bmphYmkvbmRhc2hkLw==:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=OeMQR6mooUecbsiqbMOkWyIWEmV6ViPkNOfZL8NiHLwu7eexwyWlu19CvZ6zYGmzTt3Vgjn5Nmoj9rJ-7ywiDw==",
     "drmScheme": "clearkey",
     "drmLicense": "ce7d5f35ba4d3fe99ce276760a9e2a24:653225d7d42bc7f44f5b14ccf546e63f"
   },
@@ -1147,7 +1147,7 @@
     "tvg-name": "DD Punjabi",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_PUNJABI/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_punjabi/ndashd/dd_punjabi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9wdW5qYWJpL25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=XiTDHlpDsp6VqWdx1Ex5fuWyGMfWu7W1VNMIqcLgr-8mo93Kz4jD9NcSmhVUhtpQYyPJymjrTJqM6z5oM0fgCg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9wdW5qYWJpL25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=XiTDHlpDsp6VqWdx1Ex5fuWyGMfWu7W1VNMIqcLgr-8mo93Kz4jD9NcSmhVUhtpQYyPJymjrTJqM6z5oM0fgCg==",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/dd_punjabi/ndashd/dd_punjabi.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9wdW5qYWJpL25kYXNoZC8=:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=ELiq54z_RG6VYP-vWJidbSvIqzryCR6M-Enx7AfjSHM-MaM-iu76XGSyeEpP_oTQZQmNPxxMyfxmLDuXGS6wBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9wdW5qYWJpL25kYXNoZC8=:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=ELiq54z_RG6VYP-vWJidbSvIqzryCR6M-Enx7AfjSHM-MaM-iu76XGSyeEpP_oTQZQmNPxxMyfxmLDuXGS6wBw==",
     "drmScheme": "clearkey",
     "drmLicense": "c7d470fd7a2b3b5496760f0f5d08b3e7:6613042e35847c39378534097d608642"
   },
@@ -1165,7 +1165,7 @@
     "tvg-name": "ABP Asmita",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ABP_ASMITA/images/LOGO_HD/image.png",
     "group-title": "News",
-    "url": "https://companion-live-play1.streamready.in/live/med14-2/abp_asmita/ndashd/abp_asmita.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FzbWl0YS9uZGFzaGQv:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=o2LODPKu3ZuDq4fSKTJWKIpF25wOGRkvZL6tq1PjP1Wfq6_g-IrVOPWLnf6OsPdV4GZmECALLp0VsVvWmIoRCA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FzbWl0YS9uZGFzaGQv:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=o2LODPKu3ZuDq4fSKTJWKIpF25wOGRkvZL6tq1PjP1Wfq6_g-IrVOPWLnf6OsPdV4GZmECALLp0VsVvWmIoRCA==",
+    "url": "https://companion-live-play1.streamready.in/live/med14-2/abp_asmita/ndashd/abp_asmita.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FzbWl0YS9uZGFzaGQv:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=kL-X0gUHuLbqT8AqILhEsEmjIufDFApOKQRzwIH1y_VBjEIBkZpQjTQQZNhJokHDW8R0a7gGhiWlIExVpdjJCg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FzbWl0YS9uZGFzaGQv:Expires=1751176822:KeyName=iptv-prod-media-cdn-keys:Signature=kL-X0gUHuLbqT8AqILhEsEmjIufDFApOKQRzwIH1y_VBjEIBkZpQjTQQZNhJokHDW8R0a7gGhiWlIExVpdjJCg==",
     "drmScheme": "clearkey",
     "drmLicense": "2f1676373aa2300784dab4419fcf48df:75908ba4b14f4531f096e5f6fd4c0014"
   },
@@ -1174,7 +1174,7 @@
     "tvg-name": "DD Girnar",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_GIRNAR/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_girnar/ndashd/dd_girnar.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfZ2lybmFyL25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=OSkzMtOs7l7WVEj--pi9hNmc9FXnoKr8Hm00YbOTWNCjkHgfLsw044CR1UXOKkJ9vV9NPo66-OwPQ7J4bGk5CA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfZ2lybmFyL25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=OSkzMtOs7l7WVEj--pi9hNmc9FXnoKr8Hm00YbOTWNCjkHgfLsw044CR1UXOKkJ9vV9NPo66-OwPQ7J4bGk5CA==",
+    "url": "https://companion-live-play1.streamready.in/live/med10-2/dd_girnar/ndashd/dd_girnar.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfZ2lybmFyL25kYXNoZC8=:Expires=1751178618:KeyName=iptv-prod-media-cdn-keys:Signature=e_6DosMaiRnuTskguiLazfAPoi3PZ-WajMHoAGaDoIZ2LfkYr-45ncfuCXLCEpRKqjwzEtt6rcTSt1hcnW-yBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEwLTIvZGRfZ2lybmFyL25kYXNoZC8=:Expires=1751178618:KeyName=iptv-prod-media-cdn-keys:Signature=e_6DosMaiRnuTskguiLazfAPoi3PZ-WajMHoAGaDoIZ2LfkYr-45ncfuCXLCEpRKqjwzEtt6rcTSt1hcnW-yBw==",
     "drmScheme": "clearkey",
     "drmLicense": "0e8474dda383378b80ade66d41c74ced:4db0497c24e0fe9ff7b3e305a5de393e"
   },
@@ -1192,7 +1192,7 @@
     "tvg-name": "Prarthana TV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PRARTHANA_TV/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med2-2/prarthana_tv/ndashd/prarthana_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9wcmFydGhhbmFfdHYvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=0KLDo8dHpj-DBs2Djp1aKJ9obmwJeZget7QNCZIduNNrJEeyMPCEVB0q-WGiaCWqC_oJPo-HvQ4eWRuzdDtGBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9wcmFydGhhbmFfdHYvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=0KLDo8dHpj-DBs2Djp1aKJ9obmwJeZget7QNCZIduNNrJEeyMPCEVB0q-WGiaCWqC_oJPo-HvQ4eWRuzdDtGBw==",
+    "url": "https://companion-live-play1.streamready.in/live/med2-2/prarthana_tv/ndashd/prarthana_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9wcmFydGhhbmFfdHYvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=X5C3fB5GEVL-OajFY8o_qxElSCJFGRsdbczlgvnviYLetOxPIlbcPVEtD66k-RZaRi2o6Wj7-yLB_O16TCMKAA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9wcmFydGhhbmFfdHYvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=X5C3fB5GEVL-OajFY8o_qxElSCJFGRsdbczlgvnviYLetOxPIlbcPVEtD66k-RZaRi2o6Wj7-yLB_O16TCMKAA==",
     "drmScheme": "clearkey",
     "drmLicense": "7312dbb2fcb7300999c2d4f240fb08bd:bf5e5a7d1efaa51f7d792bcf23a58862"
   },
@@ -1237,7 +1237,7 @@
     "tvg-name": "OTV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_OTV/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med1-2/otv/ndashd/otv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9vdHYvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=s4oqxiiW8K8R-iCXmmptnxkiR2B7BVcPEh2NmhAeAw6YDOGZ--Im5D2PxdGD9sidOoh4wLr2RLRBCr_amucQCg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9vdHYvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=s4oqxiiW8K8R-iCXmmptnxkiR2B7BVcPEh2NmhAeAw6YDOGZ--Im5D2PxdGD9sidOoh4wLr2RLRBCr_amucQCg==",
+    "url": "https://companion-live-play1.streamready.in/live/med1-2/otv/ndashd/otv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9vdHYvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=gcCYEuevIVOSPcTsMa4xSu0DfJlxkdS5CVJ1QjXATN-Fqf038qb1UkaG8UC7Iyg7EXnZ4GuLMxudapSGesweAA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9vdHYvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=gcCYEuevIVOSPcTsMa4xSu0DfJlxkdS5CVJ1QjXATN-Fqf038qb1UkaG8UC7Iyg7EXnZ4GuLMxudapSGesweAA==",
     "drmScheme": "clearkey",
     "drmLicense": "f406fffea9d6310a9b8bda9001ee7bb8:aeb361056a1394e343c49c4860072b08"
   },
@@ -1246,7 +1246,7 @@
     "tvg-name": "Tarang Music",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TARANG_MUSIC/images/LOGO_HD/image.png",
     "group-title": "Music",
-    "url": "https://companion-live-play1.streamready.in/live/med4-2/tarang_music/ndashd/tarang_music.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDQtMi90YXJhbmdfbXVzaWMvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=VFkerpLB68R4fiuzPQtWW0K7crkZ8sSbh9uwkYUl61ObVWE6pbSe1r1e1lOKoRwL2-OnKY_KfXnLP6W7PNVIDA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDQtMi90YXJhbmdfbXVzaWMvbmRhc2hkLw==:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=VFkerpLB68R4fiuzPQtWW0K7crkZ8sSbh9uwkYUl61ObVWE6pbSe1r1e1lOKoRwL2-OnKY_KfXnLP6W7PNVIDA==",
+    "url": "https://companion-live-play1.streamready.in/live/med4-2/tarang_music/ndashd/tarang_music.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDQtMi90YXJhbmdfbXVzaWMvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=ZxUWDPLA5Xiw-cc3AEWHEa9Nibto_JEIEDS0qNz0sLLh15atV9ejzUjS09vmmi8WV2EVMuPrPAfcu7lqbNDWDQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDQtMi90YXJhbmdfbXVzaWMvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=ZxUWDPLA5Xiw-cc3AEWHEa9Nibto_JEIEDS0qNz0sLLh15atV9ejzUjS09vmmi8WV2EVMuPrPAfcu7lqbNDWDQ==",
     "drmScheme": "clearkey",
     "drmLicense": "a0c5f183294233f380c91f9bfafc0c2f:fe3b50c26497a4499075e483800e79eb"
   },
@@ -1264,7 +1264,7 @@
     "tvg-name": "SIDHARTH UTSAV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SIDHARTH_BHAKTI/images/LOGO_HD/image.png",
     "group-title": "Devotional",
-    "url": "https://companion-live-play1.streamready.in/live/med14/sidharth_bhakti/ndashd/sidharth_bhakti.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc2lkaGFydGhfYmhha3RpL25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=ghDHAGMKexXYZ3pjsXTbxX02d4q87g72yzqDnbI7DaZss3WhfOSqXO5-JREHo55RJr5GqdFDWSGKyBeJh4zPCQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc2lkaGFydGhfYmhha3RpL25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=ghDHAGMKexXYZ3pjsXTbxX02d4q87g72yzqDnbI7DaZss3WhfOSqXO5-JREHo55RJr5GqdFDWSGKyBeJh4zPCQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med14/sidharth_bhakti/ndashd/sidharth_bhakti.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc2lkaGFydGhfYmhha3RpL25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=cFKvk7oeRQ4gywgdEJueDystucRHcLfIZApD6hw1H4c6NRq6bt-hKXwkAs7CfkAOzvipUqF2IoVor-kpoChVBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc2lkaGFydGhfYmhha3RpL25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=cFKvk7oeRQ4gywgdEJueDystucRHcLfIZApD6hw1H4c6NRq6bt-hKXwkAs7CfkAOzvipUqF2IoVor-kpoChVBQ==",
     "drmScheme": "clearkey",
     "drmLicense": "a2c7a5d69549393280a56c3d3056d74e:fe103f04ee53f8ebdbe5e73e6f0d62c7"
   },
@@ -1273,7 +1273,7 @@
     "tvg-name": "DD Oriya",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_ORIYA/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med1/dd_oriya/ndashd/dd_oriya.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9vcml5YS9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=OMKitPCwN_GBafc3iuX4ZhUWYB3t6a6QOWhc48LlB4Ucb-wFBuNkpOR_UmFNagxShwGJx13QZU6lezacgFhVBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9vcml5YS9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=OMKitPCwN_GBafc3iuX4ZhUWYB3t6a6QOWhc48LlB4Ucb-wFBuNkpOR_UmFNagxShwGJx13QZU6lezacgFhVBw==",
+    "url": "https://companion-live-play1.streamready.in/live/med1/dd_oriya/ndashd/dd_oriya.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9vcml5YS9uZGFzaGQv:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=qZpru5gNi8QIWMv4VDrTAuO9NeKkHdp9-cFyA6kLs9cZUmaQIFTxnqD8ZAPSyfWhYxcojaDZRt4hkIOtYgpRCg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9vcml5YS9uZGFzaGQv:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=qZpru5gNi8QIWMv4VDrTAuO9NeKkHdp9-cFyA6kLs9cZUmaQIFTxnqD8ZAPSyfWhYxcojaDZRt4hkIOtYgpRCg==",
     "drmScheme": "clearkey",
     "drmLicense": "9a7c8d8333bf32a8a54474a17b504e87:e0ab16c481675ba30c66a0d4b323ff54"
   },
@@ -1309,7 +1309,7 @@
     "tvg-name": "Rengoni TV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RENGONI_TV/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med3/rengoni_tv/ndashd/rengoni_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9yZW5nb25pX3R2L25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=iwRw9F4IzPw9JmI9eVax6U4JpPa72fsAeu2bkNMahpjXNn9ForN1Ap0T_slq-h3St0Qqrb4UQxayIGC32NWBAQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9yZW5nb25pX3R2L25kYXNoZC8=:Expires=1751141725:KeyName=iptv-prod-media-cdn-keys:Signature=iwRw9F4IzPw9JmI9eVax6U4JpPa72fsAeu2bkNMahpjXNn9ForN1Ap0T_slq-h3St0Qqrb4UQxayIGC32NWBAQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med3/rengoni_tv/ndashd/rengoni_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9yZW5nb25pX3R2L25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=CQ_h_pPUrSiWPYGbjeX4Ws6DeQllRaR2cWXFzlkZokGLg7MylBBw7u5EkiEYoA13I1eGrEJY5jm0_dzMg2aNBg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9yZW5nb25pX3R2L25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=CQ_h_pPUrSiWPYGbjeX4Ws6DeQllRaR2cWXFzlkZokGLg7MylBBw7u5EkiEYoA13I1eGrEJY5jm0_dzMg2aNBg==",
     "drmScheme": "clearkey",
     "drmLicense": "5ad1b41bba973ed2a830efcb6ff4a905:aae094ab25f62dedb1fd9b2e3de13dda"
   },
@@ -1327,7 +1327,7 @@
     "tvg-name": "DD North East",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_NORTH_EAST/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med1/dd_north_east/ndashd/dd_north_east.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9ub3J0aF9lYXN0L25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=3qDOeB8rLGXiWVHFnaRukLxfVCbblHMHBrJ2sH1l2j7Rs2Hu5vh45rziptLnRraFqFP2I52AlY75NLfENEWEBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9ub3J0aF9lYXN0L25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=3qDOeB8rLGXiWVHFnaRukLxfVCbblHMHBrJ2sH1l2j7Rs2Hu5vh45rziptLnRraFqFP2I52AlY75NLfENEWEBw==",
+    "url": "https://companion-live-play1.streamready.in/live/med1/dd_north_east/ndashd/dd_north_east.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9ub3J0aF9lYXN0L25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=dtDfbxbtY4wsCNZ8PiHPp5WmfZToU0SbvEZlttrAiL6IuBHz4Nz5IFhamwDWB_DilGIjPrfbIWXQqGV6mi67CA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9kZF9ub3J0aF9lYXN0L25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=dtDfbxbtY4wsCNZ8PiHPp5WmfZToU0SbvEZlttrAiL6IuBHz4Nz5IFhamwDWB_DilGIjPrfbIWXQqGV6mi67CA==",
     "drmScheme": "clearkey",
     "drmLicense": "b885917361193c7190960d8727838956:478574c3fc368154a99ed4755bc5c6f3"
   },
@@ -1462,7 +1462,7 @@
     "tvg-name": "Zee Bangla Cinema",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_CINEMA/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_bangla_cinema/ndashd/zee_bangla_cinema.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2JhbmdsYV9jaW5lbWEvbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=GLnMUEaliskWzF0iB3T1hllBjlacpE8TRezGiL8IDjJC3rxVLHYEUSmzeiytmAyK_LbWabXgPJsZ6mhmsVQ2Bg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2JhbmdsYV9jaW5lbWEvbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=GLnMUEaliskWzF0iB3T1hllBjlacpE8TRezGiL8IDjJC3rxVLHYEUSmzeiytmAyK_LbWabXgPJsZ6mhmsVQ2Bg==",
+    "url": "https://companion-live-play1.streamready.in/live/med12-2/zee_bangla_cinema/ndashd/zee_bangla_cinema.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2JhbmdsYV9jaW5lbWEvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=eGUayRtM5gRakEiqywi1GzriRvZ0GpbnzwMQrRIJQyeIVE-LKBRpsUViqSst4aM075pTjH4ZnXDpKUzlUJFuDQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2JhbmdsYV9jaW5lbWEvbmRhc2hkLw==:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=eGUayRtM5gRakEiqywi1GzriRvZ0GpbnzwMQrRIJQyeIVE-LKBRpsUViqSst4aM075pTjH4ZnXDpKUzlUJFuDQ==",
     "drmScheme": "clearkey",
     "drmLicense": "2ef62501f1fe3f179c90ad68924776e2:f6842771427de1e7e78890882b785991"
   },
@@ -1480,7 +1480,7 @@
     "tvg-name": "ABP Ananda",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ABP_ANANDA/images/LOGO_HD/image.png",
     "group-title": "News",
-    "url": "https://companion-live-play1.streamready.in/live/med14/abp_ananda/ndashd/abp_ananda.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FuYW5kYS9uZGFzaGQv:Expires=1751142618:KeyName=iptv-prod-media-cdn-keys:Signature=YXeoVhCPUPyDXDqDFsUlHzIIS3HOita2K9Dqvx5WtFlkTItDdyOSHBQeMZPph0wBaNf01jwxoQNsi0OD4AVIBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FuYW5kYS9uZGFzaGQv:Expires=1751142618:KeyName=iptv-prod-media-cdn-keys:Signature=YXeoVhCPUPyDXDqDFsUlHzIIS3HOita2K9Dqvx5WtFlkTItDdyOSHBQeMZPph0wBaNf01jwxoQNsi0OD4AVIBw==",
+    "url": "https://companion-live-play1.streamready.in/live/med14/abp_ananda/ndashd/abp_ananda.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FuYW5kYS9uZGFzaGQv:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=c2BD4yFuepUiSjacgU3ZcNGK9bnnHArn1MLCbNeVUkrdQmIYeZCIkvE63--Kme30n39kySk5SuTg5JJmfyZOAA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvYWJwX2FuYW5kYS9uZGFzaGQv:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=c2BD4yFuepUiSjacgU3ZcNGK9bnnHArn1MLCbNeVUkrdQmIYeZCIkvE63--Kme30n39kySk5SuTg5JJmfyZOAA==",
     "drmScheme": "clearkey",
     "drmLicense": "edadec08c9673bd789dd896293ae7f31:2953380ac768a95689bd85a5da6f3b63"
   },
@@ -1597,7 +1597,7 @@
     "tvg-name": "Mega 24",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MEGA_24/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med13-2/mega_24/ndashd/mega_24.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvbWVnYV8yNC9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=__-P82CQh9JiEjJOp7l_TmqUaxMzCOs4KVsFZNPJcyhaJuIHJbdHEI2zfwq0p-1bZd7T--KY1ITvcfW-WS2AAw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvbWVnYV8yNC9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=__-P82CQh9JiEjJOp7l_TmqUaxMzCOs4KVsFZNPJcyhaJuIHJbdHEI2zfwq0p-1bZd7T--KY1ITvcfW-WS2AAw==",
+    "url": "https://companion-live-play1.streamready.in/live/med13-2/mega_24/ndashd/mega_24.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvbWVnYV8yNC9uZGFzaGQv:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=KV5OUHh20eqdCXtqjIshjB4WvzZg52n3yIyRrakl3H6Wzf2xDzhUcvZYHv0DQQzEy7PO3bGoysach1oBGB6ZCw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvbWVnYV8yNC9uZGFzaGQv:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=KV5OUHh20eqdCXtqjIshjB4WvzZg52n3yIyRrakl3H6Wzf2xDzhUcvZYHv0DQQzEy7PO3bGoysach1oBGB6ZCw==",
     "drmScheme": "clearkey",
     "drmLicense": "05dca81dfac83d0c8fd4e85063e4048a:43132ac274d942aee093cf0d22c31460"
   },
@@ -1606,7 +1606,7 @@
     "tvg-name": "J Movies",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_J_MOVIES/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med2/j_movies/ndashd/j_movies.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qX21vdmllcy9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=IjaaMNC983QSUNBEvE7cV3mRE5vAG4Wkqzs_zFWxDL42L5wROxRI2dqZeTdAiuDzrXp_w61opkEaTew6cyBzBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qX21vdmllcy9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=IjaaMNC983QSUNBEvE7cV3mRE5vAG4Wkqzs_zFWxDL42L5wROxRI2dqZeTdAiuDzrXp_w61opkEaTew6cyBzBQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med2/j_movies/ndashd/j_movies.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qX21vdmllcy9uZGFzaGQv:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=V9-k4I7MCk47E3xkLJdg3qAuJ_r3LmXLmNydMxkx-f6A1YQ_tv5YcolUgYkOxatZ7Y36kgP3HZIdtWlPjCsWBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qX21vdmllcy9uZGFzaGQv:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=V9-k4I7MCk47E3xkLJdg3qAuJ_r3LmXLmNydMxkx-f6A1YQ_tv5YcolUgYkOxatZ7Y36kgP3HZIdtWlPjCsWBw==",
     "drmScheme": "clearkey",
     "drmLicense": "cf0a673ee09e38a697e014f4d33757e9:0d2ee608ed9acbe5aae3cab7de83cc70"
   },
@@ -1624,7 +1624,7 @@
     "tvg-name": "Puthiya Thalaimurai",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUTHIYA_THALAIMURAI/images/LOGO_HD/image.png",
     "group-title": "News",
-    "url": "https://companion-live-play1.streamready.in/live/med3/puthiya_thalaimurai/ndashd/puthiya_thalaimurai.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9wdXRoaXlhX3RoYWxhaW11cmFpL25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=tOP6q8Q2aV5tRlkBgnpNQz4zxi6NUKqB8FHhZpMojqHB3Pa46ddhTClwEvdqwMVpSajrUjUEU0rdjoYBPWt5Ag==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9wdXRoaXlhX3RoYWxhaW11cmFpL25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=tOP6q8Q2aV5tRlkBgnpNQz4zxi6NUKqB8FHhZpMojqHB3Pa46ddhTClwEvdqwMVpSajrUjUEU0rdjoYBPWt5Ag==",
+    "url": "https://companion-live-play1.streamready.in/live/med3/puthiya_thalaimurai/ndashd/puthiya_thalaimurai.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9wdXRoaXlhX3RoYWxhaW11cmFpL25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=4KqeuJOJbTJ2cjJwrWaQ9goBz2HKm5C0Rif4h1oo5kxAVKpjNwRHWlCYLkbNYQAZELIxkPLbj6GUqDy6cBjKBw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9wdXRoaXlhX3RoYWxhaW11cmFpL25kYXNoZC8=:Expires=1751176823:KeyName=iptv-prod-media-cdn-keys:Signature=4KqeuJOJbTJ2cjJwrWaQ9goBz2HKm5C0Rif4h1oo5kxAVKpjNwRHWlCYLkbNYQAZELIxkPLbj6GUqDy6cBjKBw==",
     "drmScheme": "clearkey",
     "drmLicense": "320f1c20490b33388d14ef52257aba58:6c8c9321ac4f8370925c65cad6cc62a9"
   },
@@ -1642,7 +1642,7 @@
     "tvg-name": "Jaya Plus",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png",
     "group-title": "News",
-    "url": "https://companion-live-play1.streamready.in/live/med2/jaya_plus/ndashd/jaya_plus.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qYXlhX3BsdXMvbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=8vSoSsgzlXNMFNnC2ZSGJUp5F4-Uwzwc-Y8M8umiVuMgh9XIlzulJdgAZAP-USJUb3L412ZB5v9ufRNQUVTqBA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qYXlhX3BsdXMvbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=8vSoSsgzlXNMFNnC2ZSGJUp5F4-Uwzwc-Y8M8umiVuMgh9XIlzulJdgAZAP-USJUb3L412ZB5v9ufRNQUVTqBA==",
+    "url": "https://companion-live-play1.streamready.in/live/med2/jaya_plus/ndashd/jaya_plus.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qYXlhX3BsdXMvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=pFk5XEysj4kB7nzRkDNFedGQGE86BLIyINionlQ8XxE2EY5Klk2RgABz3anMjSlMh1PAZ4oFhqoSvRggJnvmAw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9qYXlhX3BsdXMvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=pFk5XEysj4kB7nzRkDNFedGQGE86BLIyINionlQ8XxE2EY5Klk2RgABz3anMjSlMh1PAZ4oFhqoSvRggJnvmAw==",
     "drmScheme": "clearkey",
     "drmLicense": "52224dc7cf81313d807aa9a1c18b63ee:0ccc5ff04b1a70a5f877d1ec29042dc6"
   },
@@ -1669,7 +1669,7 @@
     "tvg-name": "D Tamil",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_D_TAMIL/images/LOGO_HD/image.png",
     "group-title": "Infotainment",
-    "url": "https://companion-live-play1.streamready.in/live/med2/d_tamil/ndashd/d_tamil.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9kX3RhbWlsL25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=TFU3Ywz-AHFqGuuET0o5FH-8TYx3exe72UTbt3Jp-gV88hRi37tvicDLecPmHtHNmNdIzEFBxvQ5ADR6JoL6DQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9kX3RhbWlsL25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=TFU3Ywz-AHFqGuuET0o5FH-8TYx3exe72UTbt3Jp-gV88hRi37tvicDLecPmHtHNmNdIzEFBxvQ5ADR6JoL6DQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med2/d_tamil/ndashd/d_tamil.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9kX3RhbWlsL25kYXNoZC8=:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=gC5B48XQ6nNF_QGo2doaL27GB6GeoXRrofDk1L3pqKtA__4wfmrY6YeJ32Xa9K_b5W_13yi5ki3m9EAhgl2pBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9kX3RhbWlsL25kYXNoZC8=:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=gC5B48XQ6nNF_QGo2doaL27GB6GeoXRrofDk1L3pqKtA__4wfmrY6YeJ32Xa9K_b5W_13yi5ki3m9EAhgl2pBQ==",
     "drmScheme": "clearkey",
     "drmLicense": "a9a0f20618e03c6dbef06dcb08bbcd9e:20ce1f62b1b71b7056a5cd9dcc303215"
   },
@@ -1678,7 +1678,7 @@
     "tvg-name": "SONY SPORTS TEN 4",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_4/images/LOGO_HD/image.png",
     "group-title": "Sports",
-    "url": "https://companion-live-play1.streamready.in/live/med13-2/sony_ten_4/ndashd/sony_ten_4.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvc29ueV90ZW5fNC9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=Verf28O_Osduzg-V2yKbp5KPKFoR1zrVGj-HZ12mWkYSDOvVM4HiCI4rnIKlhjXZu7KdKmGQwCmCxwGTe1e4AA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvc29ueV90ZW5fNC9uZGFzaGQv:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=Verf28O_Osduzg-V2yKbp5KPKFoR1zrVGj-HZ12mWkYSDOvVM4HiCI4rnIKlhjXZu7KdKmGQwCmCxwGTe1e4AA==",
+    "url": "https://companion-live-play1.streamready.in/live/med13-2/sony_ten_4/ndashd/sony_ten_4.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvc29ueV90ZW5fNC9uZGFzaGQv:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=-Eg3eW60Lg9-Ug-rZFCQ5FAyXuQvTmgRXfJWIJuUaLFQTajTMWgh_AllDd_yB-MpTp3ND50FX5fxNPWk5IjhAQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvc29ueV90ZW5fNC9uZGFzaGQv:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=-Eg3eW60Lg9-Ug-rZFCQ5FAyXuQvTmgRXfJWIJuUaLFQTajTMWgh_AllDd_yB-MpTp3ND50FX5fxNPWk5IjhAQ==",
     "drmScheme": "clearkey",
     "drmLicense": "9daff0561ac43417ad3e75b89b08ee34:c2c5a0291dbc525b5274a6c7d3ca9a18"
   },
@@ -1696,7 +1696,7 @@
     "tvg-name": "Mega Musiq",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MEGA_MUSIQ/images/LOGO_HD/image.png",
     "group-title": "Music",
-    "url": "https://companion-live-play1.streamready.in/live/med2-2/mega_musiq/ndashd/mega_musiq.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9tZWdhX211c2lxL25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=kUtsdxe_woslp2H8Rvl1Z6OsjRqtBqVMKxqM0pY597juH9SM26tB3Nw2Vm_cFC3xQb_dKbH1DXDE752n8ibvCA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9tZWdhX211c2lxL25kYXNoZC8=:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=kUtsdxe_woslp2H8Rvl1Z6OsjRqtBqVMKxqM0pY597juH9SM26tB3Nw2Vm_cFC3xQb_dKbH1DXDE752n8ibvCA==",
+    "url": "https://companion-live-play1.streamready.in/live/med2-2/mega_musiq/ndashd/mega_musiq.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9tZWdhX211c2lxL25kYXNoZC8=:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=bKpCAakVY9T63wKXCCQwxP7Qop8bL7uyKdFjKYiO1OZHznVXw81nUi0Qn-93s36O07C0MNypFQbZm7BX5xV_Dg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9tZWdhX211c2lxL25kYXNoZC8=:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=bKpCAakVY9T63wKXCCQwxP7Qop8bL7uyKdFjKYiO1OZHznVXw81nUi0Qn-93s36O07C0MNypFQbZm7BX5xV_Dg==",
     "drmScheme": "clearkey",
     "drmLicense": "290d1df15db23da48e2e6d9d8254ab71:6d14332fd55da843305a5abc7253540f"
   },
@@ -1741,7 +1741,7 @@
     "tvg-name": "Zee Keralam",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KERALAM/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med12/zee_keralam/ndashd/zee_keralam.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2tlcmFsYW0vbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=ZaL8ZYhf8juqJHU4B9nCyUm175n3k1XEtDRbdVvOXuZP4vFttnBqWnyzuiYtaxFWc252P_qBsW6O_PeiXhF7DA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2tlcmFsYW0vbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=ZaL8ZYhf8juqJHU4B9nCyUm175n3k1XEtDRbdVvOXuZP4vFttnBqWnyzuiYtaxFWc252P_qBsW6O_PeiXhF7DA==",
+    "url": "https://companion-live-play1.streamready.in/live/med12/zee_keralam/ndashd/zee_keralam.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2tlcmFsYW0vbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=cpZ83PKTjkq8NMyQpZc9owH8yOh6rdIOZ4tTllVBwoEVXJZKAmdozTdsqqKQ1Al7-o_b_7wtzdMBnNqXxcUiAA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEyLTIvemVlX2tlcmFsYW0vbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=cpZ83PKTjkq8NMyQpZc9owH8yOh6rdIOZ4tTllVBwoEVXJZKAmdozTdsqqKQ1Al7-o_b_7wtzdMBnNqXxcUiAA==",
     "drmScheme": "clearkey",
     "drmLicense": "15cfae7f6dff3cd790e8865c4102143f:7cac4e8f3dd2dcd28402594bd3c4d8b6"
   },
@@ -1750,7 +1750,7 @@
     "tvg-name": "Flowers TV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FLOWERS_TV/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med2/flowers_tv/ndashd/flowers_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9mbG93ZXJzX3R2L25kYXNoZC8=:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=958xslFv3AD8M3WeSJkv1v4hXfceaU2KQj-p9NnzFhuTCFaYRE5Wf2LyIiJkl47w1SiBIKS60e2JCjF4qioQBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9mbG93ZXJzX3R2L25kYXNoZC8=:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=958xslFv3AD8M3WeSJkv1v4hXfceaU2KQj-p9NnzFhuTCFaYRE5Wf2LyIiJkl47w1SiBIKS60e2JCjF4qioQBQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med2/flowers_tv/ndashd/flowers_tv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9mbG93ZXJzX3R2L25kYXNoZC8=:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=i89-a54vKOxqE2n7BSlfavPriUPC6yXpRyZ4Ag5y5ZTuCAANY0eMv8uOKR0vaquLMAKavl1fah_ipHdg7WQwDQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDItMi9mbG93ZXJzX3R2L25kYXNoZC8=:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=i89-a54vKOxqE2n7BSlfavPriUPC6yXpRyZ4Ag5y5ZTuCAANY0eMv8uOKR0vaquLMAKavl1fah_ipHdg7WQwDQ==",
     "drmScheme": "clearkey",
     "drmLicense": "5e2448102e913cc89107f82fcf17619c:aec44191049b248d2545656eb0d428f6"
   },
@@ -1759,7 +1759,7 @@
     "tvg-name": "Asianet News",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png",
     "group-title": "News",
-    "url": "https://companion-live-play1.streamready.in/live/med1/asianet_news/ndashd/asianet_news.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9hc2lhbmV0X25ld3MvbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=EEY0xIRkhSukpioyPovXoXnFaNbNFjyuomERtOpLI7vwiHjPJsXY453NBY-FrzIGpDy6VVosT6kGgZSTchFYAg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9hc2lhbmV0X25ld3MvbmRhc2hkLw==:Expires=1751141726:KeyName=iptv-prod-media-cdn-keys:Signature=EEY0xIRkhSukpioyPovXoXnFaNbNFjyuomERtOpLI7vwiHjPJsXY453NBY-FrzIGpDy6VVosT6kGgZSTchFYAg==",
+    "url": "https://companion-live-play1.streamready.in/live/med1/asianet_news/ndashd/asianet_news.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9hc2lhbmV0X25ld3MvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=qAjVx3OatNc_jHCg98N11jJSZJDB5f-Sg8VPN6Za_tVjOur2ikE5r5XgUsd9plyzVWwMhH8dAO5bZj49_9rGBQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEtMi9hc2lhbmV0X25ld3MvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=qAjVx3OatNc_jHCg98N11jJSZJDB5f-Sg8VPN6Za_tVjOur2ikE5r5XgUsd9plyzVWwMhH8dAO5bZj49_9rGBQ==",
     "drmScheme": "clearkey",
     "drmLicense": "02c5d50e77323a739ec587c8d176367c:a31b057b7831b946ccb8c46a178511bb"
   },
@@ -1804,7 +1804,7 @@
     "tvg-name": "NTV",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NTV/images/LOGO_HD/image.png",
     "group-title": "News",
-    "url": "https://companion-live-play1.streamready.in/live/med3/ntv/ndashd/ntv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9udHYvbmRhc2hkLw==:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=XLWR-7wqwGemDjMdB8kk2VdxkWBPhxUucBZT86Wn8p0nlbyMz8r9kVLc8ds_93C6bBwOxuhuaH4Kjt9iqGdsCg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9udHYvbmRhc2hkLw==:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=XLWR-7wqwGemDjMdB8kk2VdxkWBPhxUucBZT86Wn8p0nlbyMz8r9kVLc8ds_93C6bBwOxuhuaH4Kjt9iqGdsCg==",
+    "url": "https://companion-live-play1.streamready.in/live/med3/ntv/ndashd/ntv.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9udHYvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=EzHa395L-2zRjyZLqLz7obEgt3kuyEPG0iY0fe_fFQh1rVx_BOPxLqMlCXVWqF1ccN0H_dcpfOuf8jHE_MZFDw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDMtMi9udHYvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=EzHa395L-2zRjyZLqLz7obEgt3kuyEPG0iY0fe_fFQh1rVx_BOPxLqMlCXVWqF1ccN0H_dcpfOuf8jHE_MZFDw==",
     "drmScheme": "clearkey",
     "drmLicense": "f9b1f33dc79b38fbb0813203ad3c0a72:884c4ca1d2d3e6fe485f84fcb0ccb456"
   },
@@ -1867,7 +1867,7 @@
     "tvg-name": "Zee Picchar",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_PICCHAR/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med13/zee_picchar/ndashd/zee_picchar.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvemVlX3BpY2NoYXIvbmRhc2hkLw==:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=_PNaNm9rkbCJK0fpoP-HMY80U9iJbTK6BPqXN0fauEDzadwhO2GKy1hhWaDTMl0jdloVIzWQ52R7aCqRIDsTDg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvemVlX3BpY2NoYXIvbmRhc2hkLw==:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=_PNaNm9rkbCJK0fpoP-HMY80U9iJbTK6BPqXN0fauEDzadwhO2GKy1hhWaDTMl0jdloVIzWQ52R7aCqRIDsTDg==",
+    "url": "https://companion-live-play1.streamready.in/live/med13/zee_picchar/ndashd/zee_picchar.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvemVlX3BpY2NoYXIvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=KvtQMNX0cXXTa_jb7-biL0ipCwnb0T5eZxGjTw6qUvxzYfRa4FCiuGAFEk9hka7dvq-_sqSyvk_gvDl24hm2CQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDEzLTIvemVlX3BpY2NoYXIvbmRhc2hkLw==:Expires=1751176824:KeyName=iptv-prod-media-cdn-keys:Signature=KvtQMNX0cXXTa_jb7-biL0ipCwnb0T5eZxGjTw6qUvxzYfRa4FCiuGAFEk9hka7dvq-_sqSyvk_gvDl24hm2CQ==",
     "drmScheme": "clearkey",
     "drmLicense": "11a5ce9518e1363aa83643a0a62d9480:d12c9b605e645ae9d77f8316adbea20f"
   },
@@ -1930,7 +1930,7 @@
     "tvg-name": "Zee TV HD",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV_HD/images/LOGO_HD/image.png",
     "group-title": "Entertainment",
-    "url": "https://companion-live-play1.streamready.in/live/med11-2/zee_tv_hd/ndashhd/zee_tv_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDExLTIvemVlX3R2X2hkL25kYXNoaGQv:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=OWuqoxdR2nG6d-N6qusFLo6Jz2JWMlioi7Wi3T18flJCEgcjZUTvwfZY_38Gi7IlOmaZ0yZDl4ZcX4-B-b0vAg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDExLTIvemVlX3R2X2hkL25kYXNoaGQv:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=OWuqoxdR2nG6d-N6qusFLo6Jz2JWMlioi7Wi3T18flJCEgcjZUTvwfZY_38Gi7IlOmaZ0yZDl4ZcX4-B-b0vAg==",
+    "url": "https://companion-live-play1.streamready.in/live/med11-2/zee_tv_hd/ndashhd/zee_tv_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDExLTIvemVlX3R2X2hkL25kYXNoaGQv:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=Rw3JakzHglguru9fLfov9JagWmzJEsszdqY8rmGu9yAPBtSBxNG-fPxgF1LoIaTki7oVRTWMlxFS_ihvNHjGCQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDExLTIvemVlX3R2X2hkL25kYXNoaGQv:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=Rw3JakzHglguru9fLfov9JagWmzJEsszdqY8rmGu9yAPBtSBxNG-fPxgF1LoIaTki7oVRTWMlxFS_ihvNHjGCQ==",
     "drmScheme": "clearkey",
     "drmLicense": "17ac8a782ae53a0a86120951c2052a56:480f5d9a493e236b27a8f62d73a85268"
   },
@@ -1993,7 +1993,7 @@
     "tvg-name": "ZEE ZEST HD",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST_HD/images/LOGO_HD/image.png",
     "group-title": "Infotainment",
-    "url": "https://companion-live-play1.streamready.in/live/med17-2/zee_zest_hd/ndashhd/zee_zest_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3plc3RfaGQvbmRhc2hoZC8=:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=SiABj0__utxEsM76NNkgkSVvHSleodqJmCP3foK89byXJZZZmaFUVkduzlk8H4WRH6lOEDXQXWOORJIDcsvfCg==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3plc3RfaGQvbmRhc2hoZC8=:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=SiABj0__utxEsM76NNkgkSVvHSleodqJmCP3foK89byXJZZZmaFUVkduzlk8H4WRH6lOEDXQXWOORJIDcsvfCg==",
+    "url": "https://companion-live-play1.streamready.in/live/med17-2/zee_zest_hd/ndashhd/zee_zest_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3plc3RfaGQvbmRhc2hoZC8=:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=0N5nC8xy2pOLwD95ndb1Uj0REAZQF2Rz0wdvtud_4-_Ote9Vwvh1V4G3iSm0ByzdyH5FSfEMJZxrTL2_M-fzDA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3plc3RfaGQvbmRhc2hoZC8=:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=0N5nC8xy2pOLwD95ndb1Uj0REAZQF2Rz0wdvtud_4-_Ote9Vwvh1V4G3iSm0ByzdyH5FSfEMJZxrTL2_M-fzDA==",
     "drmScheme": "clearkey",
     "drmLicense": "6a9e6a44074336d0b9cf089d4d3ab7d6:e8ca98f76dfbb26fc8516c944af52e66"
   },
@@ -2065,7 +2065,7 @@
     "tvg-name": "Zee Cinemalu HD",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMALU_HD/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med14/zee_cinemalu_hd/ndashhd/zee_cinemalu_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvemVlX2NpbmVtYWx1X2hkL25kYXNoaGQv:Expires=1751141728:KeyName=iptv-prod-media-cdn-keys:Signature=WwrYw9Z3gVtsXsmHYx2UDM0OWBgMmwClVJYphqYwpxR2pjSpQSevi2oLbjUYPah99VQJXsUFCEDMGcG830-yCw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvemVlX2NpbmVtYWx1X2hkL25kYXNoaGQv:Expires=1751141728:KeyName=iptv-prod-media-cdn-keys:Signature=WwrYw9Z3gVtsXsmHYx2UDM0OWBgMmwClVJYphqYwpxR2pjSpQSevi2oLbjUYPah99VQJXsUFCEDMGcG830-yCw==",
+    "url": "https://companion-live-play1.streamready.in/live/med14/zee_cinemalu_hd/ndashhd/zee_cinemalu_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvemVlX2NpbmVtYWx1X2hkL25kYXNoaGQv:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=GFXUTZVkYEW8_W-bzQzbdSh-4Z2kiwU7ix08xOYky5ftcZEwF-x9-2o1eBWLxTmRTT4cVqLNInW7QGEGI5lxDQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvemVlX2NpbmVtYWx1X2hkL25kYXNoaGQv:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=GFXUTZVkYEW8_W-bzQzbdSh-4Z2kiwU7ix08xOYky5ftcZEwF-x9-2o1eBWLxTmRTT4cVqLNInW7QGEGI5lxDQ==",
     "drmScheme": "clearkey",
     "drmLicense": "3790d14936a630a6bb46c1993f7562f4:7c48aafb24e2d2208ffc2bf2cf47b505"
   },
@@ -2074,7 +2074,7 @@
     "tvg-name": "Zee Kannada HD",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KANNADA_HD/images/LOGO_HD/image.png",
     "group-title": "Regional",
-    "url": "https://companion-live-play1.streamready.in/live/med16-2/zee_kannada_hd/ndashhd/zee_kannada_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE2LTIvemVlX2thbm5hZGFfaGQvbmRhc2hoZC8=:Expires=1751141728:KeyName=iptv-prod-media-cdn-keys:Signature=P1LQH8tpk8JodVF5JbNMeS9gb4_KQJaT4dhE9oRWu5RW4Nt-XjIIh9ylubbHMmGDUSo0jag1xPWRsw5CJw3UDA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE2LTIvemVlX2thbm5hZGFfaGQvbmRhc2hoZC8=:Expires=1751141728:KeyName=iptv-prod-media-cdn-keys:Signature=P1LQH8tpk8JodVF5JbNMeS9gb4_KQJaT4dhE9oRWu5RW4Nt-XjIIh9ylubbHMmGDUSo0jag1xPWRsw5CJw3UDA==",
+    "url": "https://companion-live-play1.streamready.in/live/med16-2/zee_kannada_hd/ndashhd/zee_kannada_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE2LTIvemVlX2thbm5hZGFfaGQvbmRhc2hoZC8=:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=K3wZfVlrHQGxj7cydpGrlERwCFbGzlQJkL4PcuWnYUHz1K8Vff7nJICXR3-l-Dx9uYBnt8HOul2LFrujfESfCA==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE2LTIvemVlX2thbm5hZGFfaGQvbmRhc2hoZC8=:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=K3wZfVlrHQGxj7cydpGrlERwCFbGzlQJkL4PcuWnYUHz1K8Vff7nJICXR3-l-Dx9uYBnt8HOul2LFrujfESfCA==",
     "drmScheme": "clearkey",
     "drmLicense": "e48d18096ca63b12bd52a6870fc1e238:170601dd83e5dd59274df24b4e5e2679"
   },
@@ -2083,7 +2083,7 @@
     "tvg-name": "Zee Picchar HD",
     "tvg-logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_PICCHAR_HD/images/LOGO_HD/image.png",
     "group-title": "Movies",
-    "url": "https://companion-live-play1.streamready.in/live/med17-2/zee_picchar_hd/ndashhd/zee_picchar_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3BpY2NoYXJfaGQvbmRhc2hoZC8=:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=wS4DoLQpmgnUh_pwIlLqdCXHIJkxwYwQpMSM0fAGDGyAr7Ma_CDJS1spigC7i8YUGVHfCN4sbqmBekpNouLiAQ==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3BpY2NoYXJfaGQvbmRhc2hoZC8=:Expires=1751141727:KeyName=iptv-prod-media-cdn-keys:Signature=wS4DoLQpmgnUh_pwIlLqdCXHIJkxwYwQpMSM0fAGDGyAr7Ma_CDJS1spigC7i8YUGVHfCN4sbqmBekpNouLiAQ==",
+    "url": "https://companion-live-play1.streamready.in/live/med17-2/zee_picchar_hd/ndashhd/zee_picchar_hd.mpd?%7Ccookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3BpY2NoYXJfaGQvbmRhc2hoZC8=:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=ZfsqIhqQLtkvMlYZ_IOZ6F4qOdKmftP0IQWoXpZGZTk9MMQuuo_M2fbLFN7fBL_mg0zZHulWyPaZShb1c18qAw==?|Cookie=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE3LTIvemVlX3BpY2NoYXJfaGQvbmRhc2hoZC8=:Expires=1751176825:KeyName=iptv-prod-media-cdn-keys:Signature=ZfsqIhqQLtkvMlYZ_IOZ6F4qOdKmftP0IQWoXpZGZTk9MMQuuo_M2fbLFN7fBL_mg0zZHulWyPaZShb1c18qAw==",
     "drmScheme": "clearkey",
     "drmLicense": "9fae08c646c93d22b94233abe588c710:a1c50cfbab078d11461840226c78c7dd"
   }
