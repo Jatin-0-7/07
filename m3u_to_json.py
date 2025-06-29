@@ -2,7 +2,7 @@ import requests
 import json
 import re
 
-M3U_URL = "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/artl.m3u"
+M3U_URL = "https://raw.githubusercontent.com/geekyhimanshu/Khu/refs/heads/main/AirtelIPTV"
 
 def parse_m3u(content):
     lines = content.strip().splitlines()
